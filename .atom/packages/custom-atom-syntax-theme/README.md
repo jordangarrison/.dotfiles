@@ -1,1 +1,0 @@
-# custom-atom-syntax-theme

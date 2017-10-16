@@ -1,6 +1,0 @@
-2017/10/15-22:48:19.310 31177 Reusing MANIFEST /home/jgarrison/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2017/10/15-22:48:19.311 31177 Recovering log #279
-2017/10/15-22:48:19.321 31177 Reusing old log /home/jgarrison/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000279.log 
-2017/10/15-22:48:20.042 27929 Level-0 table #283: started
-2017/10/15-22:48:20.065 27929 Level-0 table #283: 732995 bytes OK
-2017/10/15-22:48:20.090 27929 Delete type=0 #279

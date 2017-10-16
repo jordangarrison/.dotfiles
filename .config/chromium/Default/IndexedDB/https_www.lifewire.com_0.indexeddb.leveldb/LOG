@@ -1,9 +1,0 @@
-2017/09/24-19:52:41.701 23731 Reusing MANIFEST /home/jgarrison/.config/chromium/Default/IndexedDB/https_www.lifewire.com_0.indexeddb.leveldb/MANIFEST-000001
-2017/09/24-19:53:03.347 23731 Current memtable full; waiting...
-2017/09/24-19:53:03.347 22164 Level-0 table #5: started
-2017/09/24-19:53:03.358 22164 Level-0 table #5: 369 bytes OK
-2017/09/24-19:53:03.367 22164 Delete type=0 #3
-2017/09/24-19:53:03.367 22164 Level-0 table #7: started
-2017/09/24-19:53:03.367 22164 Level-0 table #7: 0 bytes OK
-2017/09/24-19:53:03.377 22164 Delete type=0 #4
-2017/09/24-19:53:03.378 22164 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

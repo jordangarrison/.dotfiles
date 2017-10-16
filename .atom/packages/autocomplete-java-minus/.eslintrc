@@ -1,7 +1,0 @@
-{
-  "parser": "babel-eslint",
-  "rules": {
-    "no-console": 0
-  },
-  "extends": "atom-build"
-}

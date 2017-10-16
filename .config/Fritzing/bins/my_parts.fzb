@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module fritzingVersion="0.9.2b.11.19.8d2d5970658f0bed09c661c9ea9a515b5f40f44c" icon="Mine.png">
-    <title>My Parts</title>
-    <instances>
-        <instance moduleIdRef="0223_0eb44bbb4c4f50c21567b8c79110a3c3_5" modelIndex="9147" path="/home/jgarrison/.config/Fritzing/parts/user/0223_0eb44bbb4c4f50c21567b8c79110a3c3_5.fzp">
-            <views/>
-        </instance>
-    </instances>
-</module>

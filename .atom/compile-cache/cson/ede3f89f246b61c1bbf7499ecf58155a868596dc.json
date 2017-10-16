@@ -1,1 +1,0 @@
-{"*":{"core":{"autoHideMenuBar":true,"disabledPackages":["latex","linter-spell-latex","linter","atom-python-run","java-classpath-registry","activate-power-mode"],"telemetryConsent":"limited","themes":["arc-ui","one-dark-syntax"]},"editor":{"fontSize":13,"softWrap":true,"softWrapHangingIndent":2,"tabLength":4},"linter-ui-default":{},"welcome":{"showOnStartup":false}}}
