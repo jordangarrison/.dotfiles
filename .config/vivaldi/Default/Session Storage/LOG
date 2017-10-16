@@ -1,0 +1,9 @@
+2017/04/06-17:43:09.661 4687 Reusing MANIFEST /home/jgarrison/.config/vivaldi/Default/Session Storage/MANIFEST-000001
+2017/04/06-17:43:09.661 4687 Recovering log #3
+2017/04/06-17:43:09.662 4687 Reusing old log /home/jgarrison/.config/vivaldi/Default/Session Storage/000003.log 
+2017/04/06-17:43:23.119 5007 Level-0 table #5: started
+2017/04/06-17:43:23.132 5007 Level-0 table #5: 104499 bytes OK
+2017/04/06-17:43:23.139 5007 Delete type=0 #3
+2017/04/06-18:02:32.008 5007 Level-0 table #7: started
+2017/04/06-18:02:32.024 5007 Level-0 table #7: 190794 bytes OK
+2017/04/06-18:02:32.047 5007 Delete type=0 #4

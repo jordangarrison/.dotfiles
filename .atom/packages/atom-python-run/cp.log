@@ -1,0 +1,20 @@
+INFO: OS Type: linux2
+INFO: Version Info: v0.0.10
+DEBUG: check_args(): index 0: arg: /home/jgarrison/.atom/packages/atom-python-run/cp/main.py
+DEBUG: check_args(): index 1: arg: python3
+DEBUG: check_args(): index 2: arg: /home/jgarrison/Documents/python/webscraping/adam_thesis_data3.py
+DEBUG: get_arg(): current argument: python3
+DEBUG: get_arg(): current argument: python3
+DEBUG: shift(): index is now 1
+DEBUG: get_arg(): current argument: /home/jgarrison/Documents/python/webscraping/adam_thesis_data3.py
+DEBUG: namespace: script: /home/jgarrison/Documents/python/webscraping/adam_thesis_data3.py
+DEBUG: namespace: key "pipe_symbol": value ">"
+DEBUG: namespace: key "script": value "/home/jgarrison/Documents/python/webscraping/adam_thesis_data3.py"
+DEBUG: namespace: key "last_element": value "/home/jgarrison/Documents/python/webscraping/adam_thesis_data3.py"
+DEBUG: namespace: key "pipe_file": value "None"
+DEBUG: namespace: key "progname": value "/home/jgarrison/.atom/packages/atom-python-run/cp/main.py"
+DEBUG: namespace: key "pipe": value "False"
+DEBUG: namespace: key "interpreter": value "python3"
+DEBUG: namespace: key "options": value "[]"
+DEBUG: command: ['python3', '/home/jgarrison/Documents/python/webscraping/adam_thesis_data3.py']
+INFO: return code: 0, elapsed time: 10384.962553

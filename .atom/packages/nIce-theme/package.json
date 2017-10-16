@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11789-24257-7m594i.4t512zw7b9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11789-24257-7m594i.4t512zw7b9/package.tgz",
+        "spec": "/tmp/d-11789-24257-7m594i.4t512zw7b9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11789-24257-7afbyx.sxdm7mygb9"
+    ]
+  ],
+  "_from": "../d-11789-24257-7m594i.4t512zw7b9/package.tgz",
+  "_id": "nIce-theme@3.0.1",
+  "_inCache": true,
+  "_location": "/nIce-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11789-24257-7m594i.4t512zw7b9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11789-24257-7m594i.4t512zw7b9/package.tgz",
+    "spec": "/tmp/d-11789-24257-7m594i.4t512zw7b9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11789-24257-7m594i.4t512zw7b9/package.tgz",
+  "_shasum": "88cb2a64e692c80b9c5b8232b09031706585557b",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11789-24257-7m594i.4t512zw7b9/package.tgz",
+  "_where": "/tmp/apm-install-dir-11789-24257-7afbyx.sxdm7mygb9",
+  "bugs": {
+    "url": "https://github.com/nitros12/nIce-theme/issues"
+  },
+  "dependencies": {},
+  "description": "Syntax theme inspired by the Kasugano terminal colours",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/nitros12/nIce-theme#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "blue",
+    "ice",
+    "dark"
+  ],
+  "license": "MIT",
+  "name": "nIce-theme",
+  "optionalDependencies": {},
+  "readme": "#nIce theme\n\nA single-shade syntax theme inspired by [Kasugano](http://dotshare.it/dots/659)\n\n![kasugano_theme](https://cloud.githubusercontent.com/assets/5330444/26169796/d1abf190-3b36-11e7-873d-1c51f670ac5f.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitros12/nIce-theme.git"
+  },
+  "theme": "syntax",
+  "version": "3.0.1"
+}

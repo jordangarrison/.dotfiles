@@ -1,0 +1,221 @@
+
+
+.e-markup {
+	padding: 15px 15px 20px;
+	max-height: 350px;
+	overflow: auto;
+}
+.e-markup strong {
+	color: #db5a78;
+	text-shadow: 0 0 1px rgba(219, 90, 120, .15);
+}
+
+
+.e-btn {
+	display: inline-block;
+	margin: 0 5px 0 0;
+	padding: 7px 10px 8px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+	-webkit-user-select: none;
+}
+.e-btn_right {
+	float: right;
+	margin: 0 0 0 5px;
+}
+.e-btn_theme1 {
+	color: #fff;
+	text-shadow: 0 0 1px rgba(255, 255, 255, .2);
+	background: #4dbd85;
+}
+.e-btn_theme1:hover {
+	background: #4db880;
+}
+.e-btn_theme1:active {
+	box-shadow: inset 0 2px 0 rgba(0, 0, 0, .15);
+}
+.e-btn_theme2 {
+	color: #303030;
+	text-shadow: 0 0 1px rgba(0, 0, 0, .1);
+	background: #c4c4c4;
+	opacity: .85;
+}
+.e-btn_theme2:hover {
+	opacity: 1;
+}
+.e-btn_theme2:active {
+	box-shadow: inset 0 2px 0 rgba(0, 0, 0, .15);
+}
+.e-btn_theme3 {
+	text-decoration: underline;
+	opacity: .65;
+}
+.e-btn_theme3:hover {
+	text-decoration: none;
+}
+.e-btn_theme3:active {
+	opacity: 1;
+}
+
+
+.e-tabs {
+	position: relative;
+	background: #f7f7f7;
+	border-bottom: 1px solid #e8e8e8;
+}
+.e-tabs-tab {
+	float: left;
+	padding: 10px 0 9px;
+	width: 33.33%;
+	text-align: center;
+	white-space: nowrap;
+	border-bottom: 2px solid #f7f7f7;
+	cursor: pointer;
+}
+.e-tabs-tab:hover {
+	border-color: #e8e8e8;
+}
+.e-tabs-tab[active="true"] {
+	border-color: #4dbd85;
+}
+.e-tabs-arrow {
+	position: absolute;
+	margin-left: -6px;
+	bottom: -10px;
+	width: 0;
+	height: 0;
+	border: solid transparent;
+	border-width: 5px 6px;
+	border-top-color: #4dbd85;
+	-webkit-transition: left 200ms;
+}
+[active-tab="1"] .e-tabs-arrow {
+	left: 16.67%;
+}
+[active-tab="2"] .e-tabs-arrow {
+	left: 50%;
+}
+[active-tab="3"] .e-tabs-arrow {
+	left: 83.33%;
+}
+
+.e-vTabs-tab {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	border-right: 2px solid transparent;
+}
+.e-vTabs-tab:hover {
+	border-right-color: #e8e8e8;
+}
+.e-vTabs-tab[active="true"] {
+	border-right-color: #4dbd85;
+}
+.e-vTabs-tab > i {
+	content: '';
+	display: block;
+	position: relative;
+	left: 8px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url("chrome-extension://__MSG_@@extension_id__/img/sprite_popup1.png");
+	opacity: .25;
+}
+.e-vTabs-tab:hover > i {
+	opacity: .35;
+}
+.e-vTabs-tab[active="true"] > i {
+	opacity: .8;
+}
+.e-vTabs-tab_reading > i {
+	background-position: -58px -16px;
+}
+.e-vTabs-tab_parsing > i {
+	background-position: -82px -16px;
+}
+.e-vTabs-tab_appearance > i {
+	background-position: -106px -16px;
+}
+.e-vTabs-tab_theme > i {
+	background-position: -130px -16px;
+}
+
+
+.e-Checkbox-bg {
+	display: inline-block;
+	padding: 2px 13px 2px 2px;
+	width: 27px;
+	color: #4dbd85;
+	background: #4dbd85;
+	border-radius: 3px;
+	cursor: pointer;
+	box-shadow: inset 0 2px 0 rgba(0, 0, 0, .15);
+	-webkit-user-select: none;
+}
+.e-Checkbox-bg[checked=false] {
+	padding: 2px 2px 2px 13px;
+	color: #db5a78;
+	background-color: #db5a78;
+}
+.e-Checkbox-bar {
+	display: block;
+	padding: 2px 0 0;
+	height: 14px;
+	font-size: 11px;
+	line-height: 11px;
+	font-weight: bold;
+	text-align: center;
+	background: #fff;
+	border-radius: 2px;
+	box-shadow: 2px 2px 0 rgba(0, 0, 0, .15);
+}
+.e-Checkbox-bg[checked=false] > .e-Checkbox-bar {
+	box-shadow: -2px 2px 0 rgba(0, 0, 0, .15);
+}
+
+
+.e-Range-wrapper {
+	display: inline-block;
+	width: 16px;
+	-webkit-user-select: none;
+}
+.e-Range-btn {
+	display: block;
+	width: 16px;
+	height: 13px;
+	background: url("chrome-extension://__MSG_@@extension_id__/img/sprite_popup1.png");
+	cursor: pointer;
+}
+.e-Range-btn_up {
+	background-position: 0 0;
+}
+.e-Range-btn_dn {
+	background-position: 0 -13px;
+}
+.e-Range-text {
+	display: block;
+	height: 16px;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.e-ColorPicker-wrapper {
+	display: inline-block;
+	width: 42px;
+	height: 20px;
+	border-radius: 3px;
+	box-shadow: inset 0 2px 0 rgba(0, 0, 0, .15);
+	overflow: hidden;
+	vertical-align: middle;
+}
+.e-ColorPicker-wrapper > input {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}

@@ -1,0 +1,15 @@
+<div>
+    <h3>{{title}}</h3>
+    <ul class="section-item-list">
+        <li>
+            {{#checked}}
+                <input id="signature-checkbox" type="checkbox" class="checkbox" checked="checked" />
+            {{/checked}}
+            {{^checked}}
+                <input id="signature-checkbox" type="checkbox" class="checkbox" />
+            {{/checked}}
+            <label for="signature-checkbox">{{signature}}</label>
+        </li>
+    </ul>
+    <div class="clear"></div>
+</div>

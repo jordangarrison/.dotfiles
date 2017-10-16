@@ -1,0 +1,292 @@
+@import '../syntax-variables';
+
+.syntax--docmark {
+  color: @almost-white;
+}
+
+.syntax--docmark.syntax--paragraph.syntax--text {
+  color: @almost-white
+}
+
+.syntax--docmark.syntax--list.syntax--symbol {
+  color: @red;
+}
+.syntax--docmark.syntax--list.syntax--text {
+  color: @almost-white
+}
+
+.syntax--docmark.syntax--emphasise.syntax--symbol {
+  color: @purple;
+}
+.syntax--docmark.syntax--emphasise.syntax--text {
+  font-style: italic;
+}
+
+.syntax--docmark.syntax--bold.syntax--symbol {
+  color: @purple;
+}
+.syntax--docmark.syntax--bold.syntax--text {
+  font-weight: bold;
+}
+
+.syntax--docmark.syntax--mark.syntax--symbol {
+  color: @purple;
+}
+.syntax--docmark.syntax--mark.syntax--text {
+  text-decoration: underline;
+}
+
+.syntax--docmark.syntax--delete.syntax--symbol {
+  color: @purple;
+}
+.syntax--docmark.syntax--delete.syntax--text {
+  text-decoration: line-through;
+}
+
+.syntax--docmark.syntax--linebreak.syntax--symbol {
+  color: @purple;
+}
+
+
+.syntax--docmark.syntax--variable.syntax--symbol {
+  color: @pink;
+  background-color: @very-dark-gray
+}
+.syntax--docmark.syntax--variable.syntax--namespace {
+  color: @pink;
+  background-color: @very-dark-gray;
+}
+.syntax--docmark.syntax--variable.syntax--name {
+  color: lighten(desaturate(@pink, 20%), 10%);
+  background-color: @very-dark-gray
+}
+
+.syntax--docmark.syntax--hyperlink.syntax--symbol {
+  color: @purple;
+}
+.syntax--docmark.syntax--hyperlink.syntax--label {
+  color: @gray;
+  .syntax--docmark.syntax--emphasise.syntax--text {
+    color: @gray;
+  }
+  .syntax--docmark.syntax--bold.syntax--text {
+    color: @gray;
+  }
+  .syntax--docmark.syntax--mark.syntax--text {
+    color: @gray;
+  }
+  .syntax--docmark.syntax--delete.syntax--text {
+    color: @gray;
+  }
+}
+.syntax--docmark.syntax--hyperlink.syntax--protocol {
+  color: @purple;
+}
+.syntax--docmark.syntax--hyperlink.syntax--target {
+  color: @blue;
+}
+
+.syntax--docmark.syntax--inlineQuote.syntax--symbol {
+  color: @purple;
+}
+.syntax--docmark.syntax--inlineQuote.syntax--text {
+  color: @light-gray;
+  background-color: @very-dark-gray;
+  .syntax--docmark.syntax--emphasise.syntax--text {
+    color: @light-gray;
+  }
+  .syntax--docmark.syntax--bold.syntax--text {
+    color: @light-gray;
+  }
+  .syntax--docmark.syntax--mark.syntax--text {
+    color: @light-gray;
+  }
+  .syntax--docmark.syntax--delete.syntax--text {
+    color: @light-gray;
+  }
+}
+
+.syntax--docmark.syntax--blockQuote.syntax--symbol {
+  color: @red;
+}
+.syntax--docmark.syntax--blockQuote.syntax--text {
+  color: @light-gray;
+  .syntax--docmark.syntax--emphasise.syntax--text {
+    color: @light-gray;
+  }
+  .syntax--docmark.syntax--bold.syntax--text {
+    color: @light-gray;
+  }
+  .syntax--docmark.syntax--mark.syntax--text {
+    color: @light-gray;
+  }
+  .syntax--docmark.syntax--delete.syntax--text {
+    color: @light-gray;
+  }
+}
+
+
+.syntax--docmark.syntax--footnote.syntax--symbol {
+  color: @purple;
+}
+.syntax--docmark.syntax--footnote.syntax--text {
+  color: @light-gray;
+  background-color: @very-dark-gray;
+  .syntax--docmark.syntax--emphasise.syntax--text {
+    color: @light-gray;
+  }
+  .syntax--docmark.syntax--bold.syntax--text {
+    color: @light-gray;
+  }
+  .syntax--docmark.syntax--mark.syntax--text {
+    color: @light-gray;
+  }
+  .syntax--docmark.syntax--delete.syntax--text {
+    color: @light-gray;
+  }
+}
+
+.syntax--docmark.syntax--reference.syntax--symbol {
+  color: @purple;
+}
+.syntax--docmark.syntax--reference.syntax--text {
+  color: @light-gray;
+  background-color: @very-dark-gray;
+  .syntax--docmark.syntax--emphasise.syntax--text {
+    color: @light-gray;
+  }
+  .syntax--docmark.syntax--bold.syntax--text {
+    color: @light-gray;
+  }
+  .syntax--docmark.syntax--mark.syntax--text {
+    color: @light-gray;
+  }
+  .syntax--docmark.syntax--delete.syntax--text {
+    color: @light-gray;
+  }
+}
+
+.syntax--docmark.syntax--parameter.syntax--symbol {
+  color: @red
+}
+.syntax--docmark.syntax--parameter.syntax--separator {
+  color: lighten(desaturate(@red, 20%), 10%);
+}
+.syntax--docmark.syntax--parameter.syntax--name {
+  color: lighten(desaturate(@red, 20%), 10%);
+}
+.syntax--docmark.syntax--parameter.syntax--value {
+  color: @gray;
+  .syntax--docmark.syntax--emphasise.syntax--text {
+    color: @gray;
+  }
+  .syntax--docmark.syntax--bold.syntax--text {
+    color: @gray;
+  }
+  .syntax--docmark.syntax--mark.syntax--text {
+    color: @gray;
+  }
+  .syntax--docmark.syntax--delete.syntax--text {
+    color: @gray;
+  }
+}
+
+.syntax--docmark.syntax--comment.syntax--symbol {
+  color: @mild-dark-gray
+}
+.syntax--docmark.syntax--comment.syntax--text {
+  color: @mild-dark-gray
+}
+
+.syntax--docmark.syntax--section.syntax--symbol
+{
+  color: @blue;
+}
+.syntax--docmark.syntax--section.syntax--name {
+  color: lighten(desaturate(@blue, 10%), 5%);
+}
+
+.syntax--docmark.syntax--heading.syntax--symbol {
+  color: @green;
+}
+.syntax--docmark.syntax--heading.syntax--name {
+  color: @green;
+  .syntax--docmark.syntax--emphasise.syntax--text {
+    color: @green;
+  }
+  .syntax--docmark.syntax--bold.syntax--text {
+    color: @green;
+  }
+  .syntax--docmark.syntax--mark.syntax--text {
+    color: @green;
+  }
+  .syntax--docmark.syntax--delete.syntax--text {
+    color: @green;
+  }
+}
+
+.syntax--docmark.syntax--blockContent.syntax--symbol {
+  color: @red
+}
+.syntax--docmark.syntax--blockContent.syntax--name {
+  color: @red
+}
+
+
+.syntax--docmark.syntax--control.syntax--symbol {
+  color: @pink
+}
+.syntax--docmark.syntax--control.syntax--text {
+  color: @pink
+}
+
+
+.syntax--docmark.syntax--tableHeadingRow.syntax--rowSymbol {
+  color: @red
+}
+.syntax--docmark.syntax--tableHeadingRow.syntax--cellSymbol {
+  color: @red
+}
+.syntax--docmark.syntax--tableHeadingRow.syntax--modifierSymbol {
+  color: lighten(desaturate(@red, 20%), 10%);
+}
+.syntax--docmark.syntax--tableHeadingRow.syntax--text{
+  color: @almost-white;
+  .syntax--docmark.syntax--emphasise.syntax--text {
+    color: @almost-white;
+  }
+  .syntax--docmark.syntax--bold.syntax--text {
+    color: @almost-white;
+  }
+  .syntax--docmark.syntax--mark.syntax--text {
+    color: @almost-white;
+  }
+  .syntax--docmark.syntax--delete.syntax--text {
+    color: @almost-white;
+  }
+}
+
+.syntax--docmark.syntax--tableDataRow.syntax--rowSymbol {
+  color: @red
+}
+.syntax--docmark.syntax--tableDataRow.syntax--cellSymbol {
+  color: @red
+}
+.syntax--docmark.syntax--tableDataRow.syntax--modifierSymbol {
+  color: lighten(desaturate(@red, 20%), 10%);
+}
+.syntax--docmark.syntax--tableDataRow.syntax--text{
+  color: @almost-white;
+  .syntax--docmark.syntax--emphasise.syntax--text {
+    color: @almost-white;
+  }
+  .syntax--docmark.syntax--bold.syntax--text {
+    color: @almost-white;
+  }
+  .syntax--docmark.syntax--mark.syntax--text {
+    color: @almost-white;
+  }
+  .syntax--docmark.syntax--delete.syntax--text {
+    color: @almost-white;
+  }
+}

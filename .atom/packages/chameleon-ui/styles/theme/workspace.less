@@ -1,0 +1,49 @@
+@spacing: @ui-whitespace-less;
+
+atom-workspace {
+  background-color: @app-background-color;
+
+  & > atom-workspace-axis.horizontal {
+    padding-bottom: @spacing;
+
+    & > atom-workspace-axis.vertical {
+
+      .item-views {
+        border: 1px solid @base-border-color;
+      }
+    }
+
+    & > atom-panel-container.left,
+    & > atom-panel-container.right {
+
+      atom-pane {
+        border: 1px solid @base-border-color;
+      }
+    }
+  }
+
+  & > atom-panel-container.footer {
+    border-top: 1px solid @base-border-color;
+  }
+}
+
+atom-dock {
+
+  .atom-dock-mask {
+    transition: all 300ms ease;
+  }
+
+  .atom-dock-resize-handle {
+    background-color: @app-background-color;
+
+    &.left,
+    &.right {
+      width: @spacing !important;
+    }
+
+    &.top,
+    &.bottom {
+      height: @spacing !important;
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117328-17788-1jhfbbq.5nzpdp9zfr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117328-17788-1jhfbbq.5nzpdp9zfr/package.tgz",
+        "spec": "/tmp/d-117328-17788-1jhfbbq.5nzpdp9zfr/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117328-17788-j718cw.zwaylj714i"
+    ]
+  ],
+  "_from": "../d-117328-17788-1jhfbbq.5nzpdp9zfr/package.tgz",
+  "_id": "build-make-file@0.3.0",
+  "_inCache": true,
+  "_location": "/build-make-file",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117328-17788-1jhfbbq.5nzpdp9zfr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117328-17788-1jhfbbq.5nzpdp9zfr/package.tgz",
+    "spec": "/tmp/d-117328-17788-1jhfbbq.5nzpdp9zfr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117328-17788-1jhfbbq.5nzpdp9zfr/package.tgz",
+  "_shasum": "57080712c770cfe7e89066ae792bf956c0b3b3ad",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117328-17788-1jhfbbq.5nzpdp9zfr/package.tgz",
+  "_where": "/tmp/apm-install-dir-117328-17788-j718cw.zwaylj714i",
+  "bugs": {
+    "url": "https://github.com/tasnad/atom-build-make-file/issues"
+  },
+  "dependencies": {
+    "voucher": "^0.1.2"
+  },
+  "description": "Runs GNU Make in the folder of the current file",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/tasnad/atom-build-make-file#readme",
+  "keywords": [
+    "build",
+    "compile",
+    "make",
+    "productivity",
+    "latex",
+    "gnu"
+  ],
+  "license": "MIT",
+  "main": "lib/make-file.js",
+  "name": "build-make-file",
+  "optionalDependencies": {},
+  "providedServices": {
+    "builder": {
+      "description": "Runs GNU Make in the folder of the current file",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "readme": "# GNU Make for Atom (in Current File's Folder)\n\nUses the [atom-build](https://github.com/noseglid/atom-build) package to execute Make in the current file's folder.\n\n### Description\nIn contrast to (most) other build providers, this package does not use the atom paths, but the path of the currently active file to search for makefiles.<br>\n**ATTENTION:** The file still has to be in one of the atom paths. This is a choice of the build package.\n\n### Usage & Notes\n* If the currently shown file is in one of Atom's paths and there is a makefile in the current file's folder, this provider calls make on that makefile.\n* You should activate the 'Refresh targets when the target list is shown' option in the build package, so that it searches for makefiles when you open the targets list. Useful to detect new makefiles.\n* To match LaTeX errors,invoke your LaTeX engine with the '-file-line-error' command line switch.\n* This package requires [atom-build](https://github.com/noseglid/atom-build) to be installed.\n* Keep an eye on the target names in the list. They might look similar but come from other providers like build-make.\n* *Thanks:* [atom-build-make](https://github.com/AtomBuild/atom-build-make) was a great help creating this package!\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tasnad/atom-build-make-file.git"
+  },
+  "version": "0.3.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "voucher",
+        "version": "0.1.2",
+        "path": "node_modules/voucher/index.js"
+      },
+      {
+        "name": "es6-promise",
+        "version": "1.0.0",
+        "path": "node_modules/voucher/node_modules/es6-promise/dist/commonjs/main.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "lib/make-file.js",
+        "node_modules/voucher/index.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/commonjs/main.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/commonjs/promise/all.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/commonjs/promise/asap.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/commonjs/promise/config.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/commonjs/promise/polyfill.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/commonjs/promise/promise.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/commonjs/promise/race.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/commonjs/promise/reject.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/commonjs/promise/resolve.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/commonjs/promise/utils.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/promise-1.0.0.amd.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/promise-1.0.0.js",
+        "node_modules/voucher/node_modules/es6-promise/dist/promise-1.0.0.min.js"
+      ],
+      ".json": [
+        "node_modules/voucher/node_modules/es6-promise/package.json",
+        "node_modules/voucher/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          ""
+        ],
+        "dependencies": {
+          "voucher": "^0.1.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/voucher"
+        ],
+        "dependencies": {
+          "es6-promise": "^1.0.0"
+        }
+      }
+    ]
+  }
+}

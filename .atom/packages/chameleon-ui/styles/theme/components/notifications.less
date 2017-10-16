@@ -1,0 +1,71 @@
+atom-notifications {
+  top: @tab-height + @ui-whitespace;
+}
+
+
+atom-notification,
+atom-notification.has-close,
+atom-notification.has-close:first-child {
+  box-shadow: 0 0 1em 0 @app-background-color;
+
+  &.info {
+    .notification(@text-color-info);
+  }
+
+  &.success {
+    .notification(@text-color-success);
+  }
+
+  &.warning {
+    .notification(@text-color-warning);
+  }
+
+  &.fatal,
+  &.error {
+    .notification(@text-color-error);
+  }
+
+  & + atom-notification {
+    margin-top: @ui-whitespace-min;
+  }
+
+  .close {
+    color: @text-color;
+  }
+
+  .content {
+
+    .detail {
+      background-color: @base-background-color;
+    }
+
+    .message {
+      padding: @ui-whitespace;
+      width: auto;
+    }
+  }
+}
+
+.notification(@color) {
+  background-color: @base-background-color;
+
+  &::before {
+    color: contrast(@color) !important;
+    background-color: @color !important;
+
+  }
+
+  .content {
+    color: @text-color;
+    background-color: fade(@color, 5%);
+  }
+
+  .close-all {
+    border-color: @text-color !important;
+    color: @text-color;
+
+    &:hover {
+      background-color: fade(@color, 20%);
+    }
+  }
+}

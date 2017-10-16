@@ -1,0 +1,47 @@
+.list-group {
+  display: inline-block;
+  width: 100%;
+  background-color: @base-background-color;
+
+  li {
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    padding: @ui-whitespace-less;
+    font-size: @font-size;
+    line-height: 1.5em;
+
+    &::after {
+      display: block;
+      clear: both;
+      content: " ";
+    }
+
+    &.two-lines {
+
+      .status {
+        min-height: 3em;
+      }
+
+      .primary-line,
+      .secondary-line {
+        padding-left: @component-padding;
+      }
+    }
+
+    &.selected {
+      border-color: @text-color;
+      border-radius: @component-border-radius;
+      background-color: @background-color-selected;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    .status {
+      float: left;
+    }
+  }
+}

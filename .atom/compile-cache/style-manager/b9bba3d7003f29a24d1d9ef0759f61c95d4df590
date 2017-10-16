@@ -1,0 +1,1 @@
+{"source":"/* highlighting is the one intentional departure from gtk's styles */\n.encoding-status a,\n.encoding-status a:hover {\n  color: #2e3436;\n}\n"}

@@ -1,0 +1,81 @@
+autocomplete-suggestion-list.popover-list.select-list {
+  display: inline-block;
+  border: 1px solid @app-background-color;
+  width: auto !important;
+  min-width: 20em;
+  max-width: 60em;
+  font-size: @font-size * 0.75;
+  background-color: @app-background-color;
+  box-shadow: 0 0 0.5em 0 @ui-shadow-color;
+
+  .suggestion-list-scroller {
+
+    .list-group {
+      margin: 0;
+
+      li {
+        display: block;
+        overflow: hidden;
+        padding: 0;
+        height: 2em;
+        line-height: 2em;
+
+        &::after {
+          display: block;
+          clear: both;
+          content: " ";
+        }
+
+        .icon-container {
+          display: inline-block;
+          float: left;
+          margin-right: @ui-whitespace-less;
+        }
+
+        .word-container {
+          display: inline;
+          position: relative;
+          padding: 0;
+          width: 100%;
+          max-width: 20em;
+
+          .word {
+            float: none;
+
+            .character-match {
+              font-weight: bold;
+            }
+          }
+        }
+
+        .left-label,
+        .right-label {
+          display: inline;
+          overflow: auto;
+          float: none;
+        }
+
+        &.selected {
+
+          &::before {
+            height: 2em;
+            line-height: 2em;
+          }
+        }
+      }
+    }
+  }
+
+  .suggestion-description {
+    font-size: @font-size;
+    background-color: @app-background-color;
+
+    .suggestion-description-content {
+      font-size: @font-size;
+    }
+
+    .suggestion-description-more-link {
+      font-size: @font-size;
+    }
+  }
+}

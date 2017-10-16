@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117328-13778-1x5fofl.t6ponoecdi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117328-13778-1x5fofl.t6ponoecdi/package.tgz",
+        "spec": "/tmp/d-117328-13778-1x5fofl.t6ponoecdi/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117328-13778-1h7z8ja.66ieunb3xr"
+    ]
+  ],
+  "_from": "../d-117328-13778-1x5fofl.t6ponoecdi/package.tgz",
+  "_id": "custom-atom-syntax-theme@0.1.0",
+  "_inCache": true,
+  "_location": "/custom-atom-syntax-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117328-13778-1x5fofl.t6ponoecdi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117328-13778-1x5fofl.t6ponoecdi/package.tgz",
+    "spec": "/tmp/d-117328-13778-1x5fofl.t6ponoecdi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117328-13778-1x5fofl.t6ponoecdi/package.tgz",
+  "_shasum": "67e4fec6db810dac67ef005ccab4f5d4da220f6d",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117328-13778-1x5fofl.t6ponoecdi/package.tgz",
+  "_where": "/tmp/apm-install-dir-117328-13778-1h7z8ja.66ieunb3xr",
+  "bugs": {
+    "url": "https://github.com/Place1/custom-atom-syntax-theme/issues"
+  },
+  "dependencies": {},
+  "description": "A short description of your syntax theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Place1/custom-atom-syntax-theme#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "custom-atom-syntax-theme",
+  "optionalDependencies": {},
+  "readme": "# custom-atom-syntax-theme\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Place1/custom-atom-syntax-theme.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

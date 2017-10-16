@@ -1,0 +1,30 @@
+VirtualBox GUI VM Selector Window 5.1.26 r117224 linux.amd64 (Jul 28 2017 22:08:53) release log
+00:00:00.854170 Log opened 2017-09-16T01:41:41.589533000Z
+00:00:00.854171 Build Type: release
+00:00:00.854173 OS Product: Linux
+00:00:00.854174 OS Release: 4.12.11-200.fc25.x86_64
+00:00:00.854175 OS Version: #1 SMP Fri Sep 8 11:44:51 UTC 2017
+00:00:00.854242 DMI Product Name: MacBookPro12,1
+00:00:00.854256 DMI Product Version: 1.0
+00:00:00.854319 Host RAM: 7884MB (7.6GB) total, 3757MB (3.6GB) available
+00:00:00.854323 Executable: /usr/lib64/virtualbox/VirtualBox
+00:00:00.854323 Process ID: 7097
+00:00:00.854324 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.854347 Qt version: 5.7.1
+00:00:00.888671 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.093058 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x27 x 1440x873
+00:01:22.011074 GUI: UIMediumEnumerator: Medium with key={3cb542b9-b145-4e47-99d7-b2c867ec1054} created
+00:01:22.175704 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:26.563253 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:01:26.754576 2D support test succeeded
+00:01:26.831218 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:13:10.772919 GUI: UIMediumEnumerator: Medium with key={6840b12f-0e3e-4bf9-a62b-98f77c063f87} created
+00:13:18.457646 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:13:18.490159 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:13:18.521777 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:13:18.562594 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:13:18.687273 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:26:51.311922 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:31:02.204430 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:31:04.859823 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:31:05.055473 GUI: UIMediumEnumerator: Medium-enumeration finished!

@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117328-17917-19oxm8q.zw6k0ozuxr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117328-17917-19oxm8q.zw6k0ozuxr/package.tgz",
+        "spec": "/tmp/d-117328-17917-19oxm8q.zw6k0ozuxr/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117328-17917-niiq2h.ujhxkfn7b9"
+    ]
+  ],
+  "_from": "../d-117328-17917-19oxm8q.zw6k0ozuxr/package.tgz",
+  "_id": "latex-autocomplete@1.0.0",
+  "_inCache": true,
+  "_location": "/latex-autocomplete",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117328-17917-19oxm8q.zw6k0ozuxr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117328-17917-19oxm8q.zw6k0ozuxr/package.tgz",
+    "spec": "/tmp/d-117328-17917-19oxm8q.zw6k0ozuxr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117328-17917-19oxm8q.zw6k0ozuxr/package.tgz",
+  "_shasum": "df680b9bcd680ed8a8823e868d8bfb01cbbdb531",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117328-17917-19oxm8q.zw6k0ozuxr/package.tgz",
+  "_where": "/tmp/apm-install-dir-117328-17917-niiq2h.ujhxkfn7b9",
+  "bugs": {
+    "url": "https://github.com/evpok/latex-autocomplete/issues"
+  },
+  "dependencies": {
+    "escape-regexp": "^0.0.1"
+  },
+  "description": "Autocompletion for LaTeX.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/evpok/latex-autocomplete#readme",
+  "keywords": [
+    "LaTeX",
+    "autocompletion"
+  ],
+  "license": "wtfpl",
+  "main": "./lib/latexautocomplete.js",
+  "name": "latex-autocomplete",
+  "optionalDependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "get_autocomplete_providers"
+      }
+    }
+  },
+  "readme": "# LaTeX-autocomplete\n\n[![Travis build status](https://travis-ci.org/Evpok/latex-autocomplete.svg?branch=master)](https://travis-ci.org/Evpok/latex-autocomplete)\n[![WTFPL badge](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png)](http://www.wtfpl.net/)\n\nLaTeX autocompletion for [atom](http://atom.io).\n\nDevelopment happens at https://github.com/Evpok/latex-autocomplete.\n\n![Screenshot](https://cdn.rawgit.com/Evpok/latex-autocomplete/master/doc/shot.gif)\n\n## Features\n  - Automatically closes environments in a sensible manner\n  - Provides autocompletion through [`autocomplete-plus`](https://atom.io/packages/autocomplete-plus)\n    - For user macros defined with `\\newcommand`\n    - For `\\labels`\n\n## License\nWTFPL. See [LICENSE.md](https://cdn.rawgit.com/Evpok/latex-autocomplete/master/LICENSE.md)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evpok/latex-autocomplete.git"
+  },
+  "version": "1.0.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "escape-regexp",
+        "version": "0.0.1",
+        "path": "node_modules/escape-regexp/index.js"
+      }
+    ],
+    "extensions": {
+      ".json": [
+        ".eslintrc.json",
+        "node_modules/escape-regexp/component.json",
+        "node_modules/escape-regexp/package.json",
+        "package.json"
+      ],
+      ".js": [
+        "lib/environment_autocompletion/env_completer.js",
+        "lib/environment_autocompletion/libenvcloser.js",
+        "lib/label_autocompletion/label_completer.js",
+        "lib/latexautocomplete.js",
+        "lib/macros_autocompletion/macro_completer.js",
+        "lib/utilities/donothing_completer.js",
+        "lib/utilities/latex_utilities.js",
+        "node_modules/escape-regexp/index.js"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "",
+          "lib/environment_autocompletion",
+          "lib/label_autocompletion",
+          "lib",
+          "lib/macros_autocompletion",
+          "lib/utilities",
+          "spec"
+        ],
+        "dependencies": {
+          "escape-regexp": "^0.0.1"
+        }
+      }
+    ]
+  }
+}

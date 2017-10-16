@@ -1,0 +1,190 @@
+{
+   "cancel": {
+      "message": "Annuler ($count$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "co2": {
+      "message": "$value$ CO2 kg/an",
+      "placeholders": {
+         "value": {
+            "content": "$1"
+         }
+      }
+   },
+   "cta_close": {
+      "message": "Fermer"
+   },
+   "delete": {
+      "message": "Supprimer ($count$ mails)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "deleteAlert": {
+      "message": "Les mails provenant de '$email$' ont été supprimés",
+      "placeholders": {
+         "email": {
+            "content": "$1"
+         }
+      }
+   },
+   "emails": {
+      "message": "$value$ mails",
+      "placeholders": {
+         "value": {
+            "content": "$1"
+         }
+      }
+   },
+   "error": {
+      "message": "Une erreur est survenue."
+   },
+   "errorReload": {
+      "message": "Cliquez ici pour réessayer."
+   },
+   "extName": {
+      "message": "Cleanfox"
+   },
+   "feedback": {
+      "message": "votre avis"
+   },
+   "feedbackUrl": {
+      "message": "https://goo.gl/forms/XKKLLd5ZmXq56om93"
+   },
+   "filter": {
+      "message": "Filtrer ($count$ mails)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "filterAlert": {
+      "message": "Les mails provenant de '$email$' ont été filtrés",
+      "placeholders": {
+         "email": {
+            "content": "$1"
+         }
+      }
+   },
+   "firstConnection": {
+      "message": "C'est votre première fois ?"
+   },
+   "help": {
+      "message": "besoin d'aide ?"
+   },
+   "helpUrl": {
+      "message": "https://gmail-extension.cleanfox.io/index-fr.html#faq"
+   },
+   "invalidToken": {
+      "message": "Vous avez été déconnecté(e)."
+   },
+   "loading": {
+      "message": "Chargement en cours..."
+   },
+   "loginUrl": {
+      "message": "https://gmail-extension.cleanfox.io/login-fr.html"
+   },
+   "needConnection": {
+      "message": "Connectez \u003Cbr/> ‘$email$’ \u003Cbr/> à Cleanfox pour nettoyer \u003Cbr/> votre boîte mail.",
+      "placeholders": {
+         "email": {
+            "content": "$1"
+         }
+      }
+   },
+   "noStats": {
+      "message": "Aucune statistique disponible."
+   },
+   "openRate": {
+      "message": "$value$% taux d'ouverture",
+      "placeholders": {
+         "value": {
+            "content": "$1"
+         }
+      }
+   },
+   "optionsCGU": {
+      "message": "CGU"
+   },
+   "optionsCGUUrl": {
+      "message": "https://www.cleanfox.io/fr/cgu"
+   },
+   "optionsConnectDelete": {
+      "message": "supprimer"
+   },
+   "optionsConnectDeleteAlert": {
+      "message": "Êtes-vous sûr de vouloir supprimer votre compte de Cleanfox ?"
+   },
+   "optionsConnectLogin": {
+      "message": "Cliquez ici pour vous identifier"
+   },
+   "optionsConnectLogout": {
+      "message": "déconnexion"
+   },
+   "optionsConnectOr": {
+      "message": "ou"
+   },
+   "optionsConnectTitle": {
+      "message": "Connecté en tant que :"
+   },
+   "optionsPrivacy": {
+      "message": "Confidentialité"
+   },
+   "optionsPrivacyUrl": {
+      "message": "https://www.cleanfox.io/fr/privacy"
+   },
+   "optionsSignature": {
+      "message": "Ajouter la signature 'Cleanfox' à vos mails"
+   },
+   "optionsSignatureTitle": {
+      "message": "Signature :"
+   },
+   "optionsTitle": {
+      "message": "Paramètres"
+   },
+   "rating": {
+      "message": "indice cleanfox"
+   },
+   "retry": {
+      "message": "Réessayer"
+   },
+   "signIn": {
+      "message": "Se connecter"
+   },
+   "signatureQuote": {
+      "message": "Ma boite mail est protégée et nettoyée par"
+   },
+   "tutoMessage1": {
+      "message": "À chaque fois que vous ouvrez un email,\u003Cbr/> Cleanfox apparaîtra sur la droite"
+   },
+   "tutoMessage2": {
+      "message": "Vous avez juste besoin de connecter\u003Cbr/>votre boîte mail à Cleanfox la première fois"
+   },
+   "tutoMessage3": {
+      "message": "Vous pouvez commencer à nettoyer votre boîte mail"
+   },
+   "tutoSubTitle": {
+      "message": "Vous pouvez maintenant utiliser Cleanfox for Gmail"
+   },
+   "tutoTitle": {
+      "message": "Félicitations!"
+   },
+   "unsubscribe": {
+      "message": "Désabonner / Bloquer"
+   },
+   "unsubscribeAlert": {
+      "message": "Les mails provenant de '$email$' ont été bloqués",
+      "placeholders": {
+         "email": {
+            "content": "$1"
+         }
+      }
+   }
+}

@@ -1,0 +1,1 @@
+{"*":{"core":{"disabledPackages":["latex","linter-spell-latex","linter","linter-spell","atom-python-run","java-classpath-registry"],"telemetryConsent":"limited","themes":["juiz-atom-ui","fox-syntax-theme"]},"editor":{"fontSize":13,"softWrap":true,"softWrapHangingIndent":2,"tabLength":4},"linter-ui-default":{},"welcome":{"showOnStartup":false}}}

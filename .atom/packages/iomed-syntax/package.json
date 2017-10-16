@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11743-25255-18b3e6t.25vynfjemi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11743-25255-18b3e6t.25vynfjemi/package.tgz",
+        "spec": "/tmp/d-11743-25255-18b3e6t.25vynfjemi/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11743-25255-1mioah5.uh1tznnrk9"
+    ]
+  ],
+  "_from": "../d-11743-25255-18b3e6t.25vynfjemi/package.tgz",
+  "_id": "iomed-syntax@0.1.0",
+  "_inCache": true,
+  "_location": "/iomed-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11743-25255-18b3e6t.25vynfjemi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11743-25255-18b3e6t.25vynfjemi/package.tgz",
+    "spec": "/tmp/d-11743-25255-18b3e6t.25vynfjemi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11743-25255-18b3e6t.25vynfjemi/package.tgz",
+  "_shasum": "64ad591ad999ea1cfab801e24604e7e1ec6aa349",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11743-25255-18b3e6t.25vynfjemi/package.tgz",
+  "_where": "/tmp/apm-install-dir-11743-25255-1mioah5.uh1tznnrk9",
+  "bugs": {
+    "url": "https://github.com/merqurio/iomed-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "A dark syntax theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/merqurio/iomed-syntax#readme",
+  "keywords": [
+    "dark",
+    "blue",
+    "syntax"
+  ],
+  "license": "MIT",
+  "name": "iomed-syntax",
+  "optionalDependencies": {},
+  "readme": "## IOMED Syntax theme\n\n### Install\n\nThis theme is installed by default with Atom and can be activated by going to the __Settings > Themes__ section and selecting it from the __Syntax Themes__ drop-down menu.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merqurio/iomed-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

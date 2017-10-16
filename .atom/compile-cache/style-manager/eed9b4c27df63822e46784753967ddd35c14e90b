@@ -1,0 +1,1 @@
+{"source":"/* highlighting is the one intentional departure from gtk's styles */\n.grammar-status a,\n.grammar-status a:hover {\n  color: #eeeeec;\n}\n"}

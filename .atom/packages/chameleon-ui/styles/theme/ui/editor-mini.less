@@ -1,0 +1,10 @@
+atom-text-editor[mini] {
+  border-bottom: solid 0.25em @ui-foreground-color;
+  border-radius: @component-border-radius;
+  padding: @ui-whitespace-less;
+  background-color: @base-background-color;
+
+  .highlight.selection .region {
+    background-color: fade(contrast(@background-color-selected), 20%);
+  }
+}

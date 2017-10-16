@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117328-11401-1w5cmmv.n3tjw9izfr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117328-11401-1w5cmmv.n3tjw9izfr/package.tgz",
+        "spec": "/tmp/d-117328-11401-1w5cmmv.n3tjw9izfr/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117328-11401-1v0ewpq.xtpb5fusor"
+    ]
+  ],
+  "_from": "../d-117328-11401-1w5cmmv.n3tjw9izfr/package.tgz",
+  "_id": "theme-flux@0.2.0",
+  "_inCache": true,
+  "_location": "/theme-flux",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117328-11401-1w5cmmv.n3tjw9izfr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117328-11401-1w5cmmv.n3tjw9izfr/package.tgz",
+    "spec": "/tmp/d-117328-11401-1w5cmmv.n3tjw9izfr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117328-11401-1w5cmmv.n3tjw9izfr/package.tgz",
+  "_shasum": "5ecfc30f3bb0cc9f51efa2cbe2ea3e945678e357",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117328-11401-1w5cmmv.n3tjw9izfr/package.tgz",
+  "_where": "/tmp/apm-install-dir-117328-11401-1v0ewpq.xtpb5fusor",
+  "bugs": {
+    "url": "https://github.com/as-cii/theme-flux/issues"
+  },
+  "dependencies": {
+    "solar-calc": "^1.0.3"
+  },
+  "description": "Switches your theme based on your location and the position of the sun.",
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/as-cii/theme-flux#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/theme-flux",
+  "name": "theme-flux",
+  "optionalDependencies": {},
+  "readme": "# Theme Flux \n\nSwitches your theme based on your location and the position of the sun.\n\nCalculating the sunset/sunrise via [solar-calc](https://www.npmjs.com/package/solar-calc).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/as-cii/theme-flux.git"
+  },
+  "scripts": {
+    "lint": "eslint ./lib"
+  },
+  "version": "0.2.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "solar-calc",
+        "version": "1.1.0",
+        "path": "node_modules/solar-calc/index.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "lib/theme-flux.js",
+        "lib/time-helpers.js",
+        "node_modules/solar-calc/index.js",
+        "node_modules/solar-calc/lib/moon.js",
+        "node_modules/solar-calc/lib/solarCalc.js",
+        "node_modules/solar-calc/lib/sun.js"
+      ],
+      ".json": [
+        "node_modules/solar-calc/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          ""
+        ],
+        "dependencies": {
+          "solar-calc": "^1.0.3"
+        }
+      }
+    ]
+  }
+}

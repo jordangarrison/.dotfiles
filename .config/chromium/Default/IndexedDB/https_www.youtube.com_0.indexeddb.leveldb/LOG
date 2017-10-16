@@ -1,0 +1,3 @@
+2017/10/05-18:30:45.987 6168 Reusing MANIFEST /home/jgarrison/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/05-18:30:45.987 6168 Recovering log #3
+2017/10/05-18:30:45.988 6168 Reusing old log /home/jgarrison/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 

@@ -1,0 +1,1 @@
+{"source":"/*\n** THEME VARIABLES\n*/\n/* stylelint-disable */\n.fuzzy-finder .list-group .character-match {\n  color: #f9faf9;\n  font-weight: bold;\n}\n"}

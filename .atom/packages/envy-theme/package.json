@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117328-13778-ovk15d.ucw2b4vx6r/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117328-13778-ovk15d.ucw2b4vx6r/package.tgz",
+        "spec": "/tmp/d-117328-13778-ovk15d.ucw2b4vx6r/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117328-13778-4lz7vq.dzqbinewmi"
+    ]
+  ],
+  "_from": "../d-117328-13778-ovk15d.ucw2b4vx6r/package.tgz",
+  "_id": "envy-theme@0.1.1",
+  "_inCache": true,
+  "_location": "/envy-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117328-13778-ovk15d.ucw2b4vx6r/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117328-13778-ovk15d.ucw2b4vx6r/package.tgz",
+    "spec": "/tmp/d-117328-13778-ovk15d.ucw2b4vx6r/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117328-13778-ovk15d.ucw2b4vx6r/package.tgz",
+  "_shasum": "a0fb083ff1213cb407c6594f37ac7650f1481473",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117328-13778-ovk15d.ucw2b4vx6r/package.tgz",
+  "_where": "/tmp/apm-install-dir-117328-13778-4lz7vq.dzqbinewmi",
+  "bugs": {
+    "url": "https://github.com/carloselias/envy-theme/issues"
+  },
+  "dependencies": {},
+  "description": "Envy is a simple dark theme for Atom.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/carloselias/envy-theme#readme",
+  "license": "MIT",
+  "name": "envy-theme",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# envy-theme\n\nEnvy is a simple dark theme for Atom.\n\n![Image](http://f.cl.ly/items/1C0J0v3Y3N142Q2P2E2n/envy-ss.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloselias/envy-theme.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

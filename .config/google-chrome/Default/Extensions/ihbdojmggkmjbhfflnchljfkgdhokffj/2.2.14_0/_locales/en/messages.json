@@ -1,0 +1,267 @@
+{
+   "CS_info": {
+      "message": "\u003Cspan>\u003Cb>Place the mouse over the text block\u003C/b>\u003C/span>\u003Chr/>\u003Cspan>\u003Cb>Left Click\u003C/b> or \u003Cb>Enter\u003C/b> to start reading\u003C/span>\u003Cspan>\u003Cb>Right Click\u003C/b> or \u003Cb>Esc\u003C/b> to cancel\u003C/span>\u003Cspan>\u003Cb>Up\u003C/b> or \u003Cb>+\u003C/b> to widen selection\u003C/span>\u003Cspan>\u003Cb>Down\u003C/b> or \u003Cb>-\u003C/b> to narrow selection\u003C/span>"
+   },
+   "____OFFLINE_________________________________________________________": {
+      "message": ""
+   },
+   "____POPUP_MAIN_________________________________________________________": {
+      "message": ""
+   },
+   "____POPUP_SETTINGS_________________________________________________________": {
+      "message": ""
+   },
+   "____POPUP_________________________________________________________": {
+      "message": ""
+   },
+   "____READER_________________________________________________________": {
+      "message": ""
+   },
+   "autostart": {
+      "message": "Autostart"
+   },
+   "autostartDescr": {
+      "message": "Start reading right after Reedy is launched."
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "cantLaunchOnSystemPages": {
+      "message": "Google Chrome Extensions can't be launched on system pages and in the Chrome WebStore."
+   },
+   "cantParse": {
+      "message": "Reedy cannot handle the text you selected."
+   },
+   "clickToStart": {
+      "message": "Click the screen or press the \u003Ci>spacebar\u003C/i>\u003Cspan>←&nbsp;&nbsp;&nbsp;&nbsp;the click outside the reading area closes Reedy&nbsp;&nbsp;&nbsp;&nbsp;→\u003C/span>"
+   },
+   "color_background": {
+      "message": "Background"
+   },
+   "color_context": {
+      "message": "Full text"
+   },
+   "color_letter": {
+      "message": "Focus point"
+   },
+   "color_word": {
+      "message": "Current word"
+   },
+   "contextMenu": {
+      "message": "Launch Reedy"
+   },
+   "ctrl_bgTransparency": {
+      "message": "Background transparency"
+   },
+   "ctrl_close": {
+      "message": "Close Reedy [esc]"
+   },
+   "ctrl_decSpeed": {
+      "message": "Decrease speed [down]"
+   },
+   "ctrl_firstWord": {
+      "message": "First word [home]"
+   },
+   "ctrl_incSpeed": {
+      "message": "Increase speed [up]"
+   },
+   "ctrl_largerFont": {
+      "message": "Larger font [ctrl+up]"
+   },
+   "ctrl_lastWord": {
+      "message": "Last word [end]"
+   },
+   "ctrl_nextSentence": {
+      "message": "Next sentence [ctrl+right]"
+   },
+   "ctrl_nextWord": {
+      "message": "Next word [right]"
+   },
+   "ctrl_playPause": {
+      "message": "Play/pause [space]"
+   },
+   "ctrl_prevSentence": {
+      "message": "Previous sentence [ctrl+left]"
+   },
+   "ctrl_prevWord": {
+      "message": "Previous word [left]"
+   },
+   "ctrl_smallerFont": {
+      "message": "Smaller font [ctrl+down]"
+   },
+   "ctrl_switchTheme": {
+      "message": "Switch theme"
+   },
+   "ctrl_vPosition": {
+      "message": "Vertical position"
+   },
+   "defaultFont": {
+      "message": "- Default font -"
+   },
+   "developersHomePage": {
+      "message": "https://www.facebook.com/olegcherr"
+   },
+   "donatePage": {
+      "message": "http://reedy.azagroup.ru/en/donate/"
+   },
+   "emptySentenceEnd": {
+      "message": "Gap between sentences"
+   },
+   "emptySentenceEndDescr": {
+      "message": "Insert an «empty word» before the beginning of the next sentence."
+   },
+   "entityAnalysis": {
+      "message": "Entity analysis"
+   },
+   "entityAnalysisDescr": {
+      "message": "Allows to display common entities as a single word. Performs the analysis of the punctuation. Corrects the basic design of the text."
+   },
+   "focusMode": {
+      "message": "Focus mode"
+   },
+   "focusModeDescr": {
+      "message": "The focus point is shifted closer to the beginning of a word."
+   },
+   "font_bold": {
+      "message": "Use bold font"
+   },
+   "font_family": {
+      "message": "Font"
+   },
+   "gradualAccel": {
+      "message": "Gradual acceleration"
+   },
+   "gradualAccelDescr": {
+      "message": "Start reading at a lower speed and gradually increase it."
+   },
+   "hyphenation": {
+      "message": "Hyphenation"
+   },
+   "hyphenationDescr": {
+      "message": "Division of long words into smaller parts."
+   },
+   "locale": {
+      "message": "en"
+   },
+   "main_closeReaderBtn": {
+      "message": "Finish reading"
+   },
+   "main_startContentSelectorBtn": {
+      "message": "Select an element on the page"
+   },
+   "main_startReadingBtn": {
+      "message": "Launch Reedy"
+   },
+   "main_startReadingInfo": {
+      "message": "To start reading select the text on the page, click the right mouse button and choose \u003Cb>Launch Reedy\u003C/b>.\u003Cbr/>You can also use the \u003Cb class='j-shortcut'>Alt+S\u003C/b> shortcut."
+   },
+   "offline_clearBtn": {
+      "message": "Clear"
+   },
+   "offline_saveTextBtn": {
+      "message": "Save the text"
+   },
+   "offline_startReadingBtn": {
+      "message": "Launch Reedy"
+   },
+   "progressBar": {
+      "message": "Progress bar"
+   },
+   "progressBarDescr": {
+      "message": "Display the current progress of reading."
+   },
+   "saveChanges": {
+      "message": "Save changes"
+   },
+   "sequel": {
+      "message": "Text continuation"
+   },
+   "sequelDescr": {
+      "message": "Show the text which follows the current word."
+   },
+   "settings_appearance": {
+      "message": "Appearance"
+   },
+   "settings_parsing": {
+      "message": "Text processing"
+   },
+   "settings_reading": {
+      "message": "Reading"
+   },
+   "settings_theme": {
+      "message": "Styling"
+   },
+   "smartSlowing": {
+      "message": "Smart slowing"
+   },
+   "smartSlowingDescr": {
+      "message": "Slow down the speed at a punctuation mark."
+   },
+   "timeLeft": {
+      "message": "Remaining time"
+   },
+   "timeLeftDescr": {
+      "message": "Show the time left till the end of reading."
+   },
+   "timeLeft_h": {
+      "message": "$val$ \u003Ci>h/i>",
+      "placeholders": {
+         "val": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeLeft_left": {
+      "message": "$str$ \u003Ci>left\u003C/i>",
+      "placeholders": {
+         "str": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeLeft_lessThan": {
+      "message": "\u003Ci>less than\u003C/i> $str$",
+      "placeholders": {
+         "str": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeLeft_min": {
+      "message": "$val$ \u003Ci>min\u003C/i>",
+      "placeholders": {
+         "val": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeLeft_sec": {
+      "message": "$val$ \u003Ci>sec\u003C/i>",
+      "placeholders": {
+         "val": {
+            "content": "$1"
+         }
+      }
+   },
+   "view_advices": {
+      "message": "Recommendations"
+   },
+   "view_help": {
+      "message": "How to use"
+   },
+   "view_offline": {
+      "message": "Paste custom text"
+   },
+   "view_readability": {
+      "message": "Search the text automatically"
+   },
+   "view_settings": {
+      "message": "Settings"
+   },
+   "view_shortcut": {
+      "message": "Shortcut setup"
+   },
+   "wrongShortcut": {
+      "message": "Invalid combination"
+   }
+}

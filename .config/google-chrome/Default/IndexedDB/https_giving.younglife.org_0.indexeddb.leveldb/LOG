@@ -1,0 +1,29 @@
+2017/10/15-18:13:36.921 22080 Reusing MANIFEST /home/jgarrison/.config/google-chrome/Default/IndexedDB/https_giving.younglife.org_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/15-18:13:36.921 22080 Recovering log #6
+2017/10/15-18:13:36.922 22080 Reusing old log /home/jgarrison/.config/google-chrome/Default/IndexedDB/https_giving.younglife.org_0.indexeddb.leveldb/000006.log 
+2017/10/15-18:13:37.957 22081 Current memtable full; waiting...
+2017/10/15-18:13:37.957 27929 Level-0 table #10: started
+2017/10/15-18:13:37.970 27929 Level-0 table #10: 405290 bytes OK
+2017/10/15-18:13:37.981 27929 Delete type=0 #6
+2017/10/15-18:13:37.982 27929 Level-0 table #12: started
+2017/10/15-18:13:37.982 27929 Level-0 table #12: 0 bytes OK
+2017/10/15-18:13:37.991 27929 Delete type=0 #9
+2017/10/15-18:13:37.991 27929 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2017/10/15-18:13:39.616 27929 Compacting 1@1 + 1@2 files
+2017/10/15-18:13:39.632 27929 Generated table #13@1: 288 keys, 421557 bytes
+2017/10/15-18:13:39.632 27929 Compacted 1@1 + 1@2 files => 421557 bytes
+2017/10/15-18:13:39.650 27929 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/10/15-18:13:39.650 27929 Delete type=2 #5
+2017/10/15-18:13:39.651 27929 Delete type=2 #10
+2017/10/15-18:14:12.313 27929 Level-0 table #15: started
+2017/10/15-18:14:12.345 27929 Level-0 table #15: 1853192 bytes OK
+2017/10/15-18:14:12.354 27929 Delete type=0 #11
+2017/10/15-18:14:21.939 27929 Compacting 1@1 + 1@2 files
+2017/10/15-18:14:21.988 27929 Generated table #16@1: 1479 keys, 1461051 bytes
+2017/10/15-18:14:21.988 27929 Compacted 1@1 + 1@2 files => 1461051 bytes
+2017/10/15-18:14:22.013 27929 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/10/15-18:14:22.014 27929 Delete type=2 #15
+2017/10/15-18:14:22.014 27929 Delete type=2 #13
+2017/10/15-18:14:27.527 27929 Level-0 table #18: started
+2017/10/15-18:14:27.554 27929 Level-0 table #18: 1447171 bytes OK
+2017/10/15-18:14:27.571 27929 Delete type=0 #14

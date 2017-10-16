@@ -1,0 +1,62 @@
+/*
+** HIGHLIGHTS
+*/
+.highlight-info {
+  .highlighter(@text-color-info, @background-color-info);
+}
+
+.highlight-success {
+  .highlighter(@text-color-success, @background-color-success);
+}
+
+.highlight-warning {
+  .highlighter(@text-color-warning, @background-color-warning);
+}
+
+.highlight-error {
+  .highlighter(@text-color-error, @background-color-error);
+}
+
+// Highlight mixin
+.highlighter(@fg, @bg) {
+  border-radius: @component-border-radius;
+  padding: @ui-whitespace-less;
+  color: @fg;
+  background-color: fade(@bg, 20%);
+}
+
+.keystroke {
+  border: 1px solid currentColor;
+  border-radius: @component-border-radius;
+  padding: @ui-whitespace-min;
+  font-size: 0.75em;
+}
+
+.info-message,
+.info-messages,
+.loading,
+.status-renamed,
+.text-info {
+  color: @text-color-info !important;
+}
+
+.status-success,
+.text-success {
+  color: @text-color-success !important;
+}
+
+.status-modified,
+.text-warning {
+  color: @text-color-warning !important;
+}
+
+.error-message,
+.error-messages,
+.status-error,
+.text-error {
+  color: @text-color-error !important;
+}
+
+a {
+  color: inherit;
+}

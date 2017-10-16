@@ -1,0 +1,37 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/application.js", "js/ColorPicker.js", "js/Checkbox.js", "js/Range.js", "js/Tabs.js", "js/background/analytics.js", "js/background/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/icon19.png",
+         "38": "icons/icon38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Reedy"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/content/content.css" ],
+      "js": [ "js/application.js", "js/content/Parser.js", "js/content/Sequencer.js", "js/content/View.js", "js/content/Reader.js", "js/content/ContentSelector.js", "js/content/content.js" ],
+      "matches": [ "*://*/*", "file:///*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "Read all you want faster with Reedy for Google Chrome!",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyCrxcs9mU32mfCmPi6KHnXMHYNAq8dxuqEmA3CRvPE//ejRUvEBRRiNFZcvEpiL+/PfheDis/2uDiB/oIqWINTrINJxiR9HP75x6vlSKqe3qy5xQpoIZ/m08VVj0k3QMG3lDR/8bBVHr6oRlnO4CoKze5GvvGhVlm9BXsmBxqFwrPX11Tjqf5prPeQU/z+UJDetlU1pSPqsVZjj/oHzkQSu0Fos7ZmkKsDQpCG8bBXtYPFiLly+w/wctJziAoTgpZ+NXq/rI+kszbqhgamxPJAcAertToM0f4lBQOKQhPE/E4ErooGy8rwdKCa1qwDCGAnct5a2xNQau701VHnJTWwIDAQAB",
+   "manifest_version": 2,
+   "name": "Reedy",
+   "offline_enabled": true,
+   "permissions": [ "tabs", "storage", "contextMenus", "fontSettings", "\u003Call_urls>" ],
+   "short_name": "Reedy",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.14",
+   "web_accessible_resources": [ "img/*" ]
+}

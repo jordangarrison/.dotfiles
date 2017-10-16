@@ -1,0 +1,47 @@
+VirtualBox XPCOM Server 5.1.26 r117224 linux.amd64 (Jul 28 2017 22:08:53) release log
+00:00:00.008236 main     Log opened 2017-09-16T01:41:41.235702000Z
+00:00:00.008238 main     Build Type: release
+00:00:00.008243 main     OS Product: Linux
+00:00:00.008244 main     OS Release: 4.12.11-200.fc25.x86_64
+00:00:00.008245 main     OS Version: #1 SMP Fri Sep 8 11:44:51 UTC 2017
+00:00:00.008346 main     DMI Product Name: MacBookPro12,1
+00:00:00.008357 main     DMI Product Version: 1.0
+00:00:00.008440 main     Host RAM: 7884MB (7.6GB) total, 3800MB (3.7GB) available
+00:00:00.008445 main     Executable: /usr/lib64/virtualbox/VBoxSVC
+00:00:00.008446 main     Process ID: 7187
+00:00:00.008446 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.010152 main     IPC socket path: /tmp/.vbox-jgarrison-ipc/ipcd
+00:00:00.143518 nspr-2   VirtualBox: object creation starts
+00:00:00.147646 nspr-2   Home directory: '/home/jgarrison/.config/VirtualBox'
+00:00:00.148086 nspr-2   Loading settings file "/home/jgarrison/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.158475 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.196012 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.214584 nspr-2   NAT: resolv.conf: nameserver 10.202.4.1
+00:00:00.214626 nspr-2   HostDnsMonitor: old information
+00:00:00.214631 nspr-2     no server entries
+00:00:00.214633 nspr-2     no domain set
+00:00:00.214636 nspr-2     no search string entries
+00:00:00.214638 nspr-2   HostDnsMonitor: new information
+00:00:00.214640 nspr-2     server 1: 10.202.4.1
+00:00:00.214643 nspr-2     domain: austin.rr.com
+00:00:00.214645 nspr-2     search string 1: austin.rr.com
+00:00:00.214648 nspr-2     search string 2: macbook-pro
+00:00:00.214654 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.221658 nspr-2   VD: VDInit finished
+00:00:00.222080 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.255249 nspr-2   VirtualBox: object created
+00:01:21.668446 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:01:26.304438 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:26.318124 nspr-5   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:13:21.098606 nspr-4   Load [/usr/lib64/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] rc VINF_SUCCESS
+00:13:21.139916 nspr-3   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
+00:13:21.152313 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:29:39.707033 MainPower Host suspending: Paused 1 VMs
+00:29:45.211048 MainPower Host resumed: Resumed 1 VMs
+00:31:04.317067 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
+00:31:04.339061 nspr-5   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={b2547866-a0a1-4391-8b86-6952d82efaa0} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
+00:31:13.535972 main     VirtualBox: object deletion starts
+00:31:13.536015 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/jgarrison/VirtualBox VMs/ArchLinux/ArchLinux.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:31:13.790971 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:31:18.538463 main     {00007fb368018480} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:31:18.539098 main     VirtualBox: object deleted

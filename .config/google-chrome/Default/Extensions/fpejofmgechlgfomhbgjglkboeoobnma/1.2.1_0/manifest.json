@@ -1,0 +1,44 @@
+{
+   "author": "__MSG_extName__",
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/back/app.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "icons/16.png",
+         "19": "icons/19.png",
+         "32": "icons/32.png",
+         "38": "icons/38.png",
+         "64": "icons/64.png"
+      },
+      "default_title": "__MSG_extName__"
+   },
+   "content_scripts": [ {
+      "css": [ "css/cleanfox.css" ],
+      "js": [ "js/front/app.js" ],
+      "matches": [ "https://mail.google.com/mail/*", "https://mail.google.com/a/*", "https://gmail-extension.cleanfox.io/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "icons": {
+      "128": "icons/128.png",
+      "150": "icons/150.png",
+      "16": "icons/16.png",
+      "44": "icons/44.png",
+      "48": "icons/48.png",
+      "50": "icons/50.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnM+5a0dbTv+lXmEFVz75dMJJzIJ8M5dHJakStCYNu1kX2gAuiaFGTU4aagfz0Fr/vF0QFSYzveVptlZG5Jprauv6MNTB+D6UJmLAUsauTQdP7nPSZW3hEuuHI5RWTPw8yyBRFTnLZ9mYzIAuCmT5BQlFAB81+zJzTigLKxn+kRDLzr6EZxzEvEh29FBiFaOiwsL0407rwWnS5B5jL5Tq1Hh27gqb0fNFF42rJzAt4GEQPPf03DqLWcm4fncKuX/N5TYOgql63a3vycDzn3LnHw4Bt2uztHeRsVsi+ZJkM6/hRa00ZRIy22Fl6Of/XhioWPEJ3eVpwY7ehd3j548XnwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_page": "options/options.html",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options/options.html"
+   },
+   "permissions": [ "tabs", "storage", "https://www.cleanfox.io/*", "https://gmail-extension.cleanfox.io/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.1",
+   "web_accessible_resources": [ "css/*", "img/*", "js/*", "templates/*" ]
+}

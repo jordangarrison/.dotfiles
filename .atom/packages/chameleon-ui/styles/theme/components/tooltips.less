@@ -1,0 +1,46 @@
+.tooltip {
+  width: auto;
+  max-width: none;
+
+  &.in {
+    opacity: 1;
+  }
+
+  &.top {
+
+    .tooltip-arrow {
+      border-top-color: @text-color;
+    }
+  }
+
+  &.bottom {
+
+    .tooltip-arrow {
+      border-bottom-color: @text-color;
+    }
+  }
+
+  &.left {
+
+    .tooltip-arrow {
+      border-left-color: @text-color;
+    }
+  }
+
+  &.right {
+
+    .tooltip-arrow {
+      border-right-color: @text-color;
+    }
+  }
+
+  .tooltip-inner {
+    display: inline-block;
+    padding: @ui-whitespace-less;
+    width: auto;
+    max-width: none;
+    color: @app-background-color;
+    background-color: @text-color;
+    box-shadow: 0 0 0.5em 0 @ui-shadow-color;
+  }
+}

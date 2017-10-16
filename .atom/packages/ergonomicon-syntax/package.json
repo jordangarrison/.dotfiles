@@ -1,0 +1,76 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11743-25255-hhrlxx.at6yhtcsor/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11743-25255-hhrlxx.at6yhtcsor/package.tgz",
+        "spec": "/tmp/d-11743-25255-hhrlxx.at6yhtcsor/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11743-25255-4sryel.99njpmbo6r"
+    ]
+  ],
+  "_from": "../d-11743-25255-hhrlxx.at6yhtcsor/package.tgz",
+  "_id": "ergonomicon-syntax@0.1.2",
+  "_inCache": true,
+  "_location": "/ergonomicon-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11743-25255-hhrlxx.at6yhtcsor/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11743-25255-hhrlxx.at6yhtcsor/package.tgz",
+    "spec": "/tmp/d-11743-25255-hhrlxx.at6yhtcsor/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11743-25255-hhrlxx.at6yhtcsor/package.tgz",
+  "_shasum": "1b847fb546eed09cd68039c92b2f3a06eade015b",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11743-25255-hhrlxx.at6yhtcsor/package.tgz",
+  "_where": "/tmp/apm-install-dir-11743-25255-4sryel.99njpmbo6r",
+  "bugs": {
+    "url": "https://github.com/melinadonati/ergonomicon-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "A dark theme optimized to be readable by color perception.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/melinadonati/ergonomicon-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "ergonomic",
+    "optimized",
+    "readability"
+  ],
+  "license": "MIT",
+  "name": "ergonomicon-syntax",
+  "optionalDependencies": {},
+  "readme": "# ergonomicon-syntax theme\n\nA dark theme optimized to be readable by color perception.  \n\n/!\\ **Currently alpha**  \n* HTML\n* CSS\n* JSON\n* Java\n\nOpen an issue for any request.  \n\n![A screenshot of your ergonomicon-syntax](https://raw.githubusercontent.com/melinadonati/ergonomicon-syntax/master/screenshot.jpg)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melinadonati/ergonomicon-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.2",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

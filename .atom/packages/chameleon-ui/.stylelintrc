@@ -1,0 +1,180 @@
+{
+  "plugins": [
+    "stylelint-order",
+  ],
+  "rules": {
+    "order/properties-order": [
+      [
+        "display",
+        {
+          "order": "flexible",
+          "properties": [
+            "visibility",
+            "opacity",
+            "overflow",
+          ],
+        },
+        {
+          "properties": [
+            "float",
+            "clear",
+          ],
+        },
+        {
+          "properties": [
+            "flex",
+            "flex-basis",
+            "flex-direction",
+            "flex-grow",
+            "flex-shrink",
+            "flex-wrap",
+            "align-items",
+            "justify-content",
+          ],
+        },
+        {
+          "properties": [
+            "position",
+            "z-index",
+            "top",
+            "right",
+            "bottom",
+            "left",
+          ],
+        },
+        {
+          "properties": [
+            "box-sizing",
+            "margin",
+            "margin-top",
+            "margin-right",
+            "margin-bottom",
+            "margin-left",
+            "border",
+            "border-top",
+            "border-right",
+            "border-bottom",
+            "border-left",
+            "border-radius",
+            "padding",
+            "padding-top",
+            "padding-right",
+            "padding-bottom",
+            "padding-left",
+            "width",
+            "min-width",
+            "max-width",
+            "height",
+            "min-height",
+            "max-height",
+          ],
+        },
+        "content",
+        {
+          "properties": [
+            "color",
+            "font",
+            "line",
+            "text",
+            "word",
+            "letter",
+          ],
+        },
+        {
+          "properties": [
+            "background",
+            "box-shadow",
+          ],
+        },
+        "animation",
+        "transition",
+      ],
+      {
+        "severity": "warning",
+        "unspecified": "bottom",
+      },
+    ],
+    "block-no-empty": true,
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
+    "comment-empty-line-before": "always",
+    "comment-whitespace-inside": "always",
+    "declaration-block-no-duplicate-properties": [
+      true,
+      {
+        "ignore": "consecutive-duplicates-with-different-values",
+      },
+    ],
+    "declaration-block-semicolon-newline-after": "always",
+    "declaration-block-semicolon-newline-before": "never-multi-line",
+    "declaration-block-single-line-max-declarations": [
+      0,
+      {
+        "message": "Unexpected single-line declaration: write multi-line declarations.",
+      },
+    ],
+    "declaration-block-semicolon-space-before": "never",
+    "declaration-block-trailing-semicolon": "always",
+    "declaration-colon-newline-after": "always-multi-line",
+    "declaration-colon-space-after": "always-single-line",
+    "declaration-colon-space-before": "never",
+    "indentation": 2,
+    "length-zero-no-unit": true,
+    "max-empty-lines": 3,
+    "no-duplicate-selectors": true,
+    "no-eol-whitespace": true,
+    "number-leading-zero": "always",
+    "number-max-precision": 3,
+    "number-no-trailing-zeros": true,
+    "rule-empty-line-before": [
+      "always",
+      {
+        "ignore": [
+          "after-comment",
+        ],
+      },
+    ],
+    "selector-attribute-quotes": "always",
+    "selector-class-pattern": [
+      "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+      {
+        "message": "Unexpected class naming pattern, use kebab-case. (selector-class-pattern)",
+      },
+    ],
+    "selector-combinator-space-after": "always",
+    "selector-combinator-space-before": "always",
+    "selector-descendant-combinator-no-non-space": true,
+    "selector-list-comma-newline-after": "always",
+    "selector-list-comma-newline-before": "never-multi-line",
+    "selector-list-comma-space-before": "never",
+    "selector-max-id": [
+      0,
+      {
+        "severity": "warning",
+        "message": "Unexpected id-selector, use class- or tag-selectors instead. (selector-max-id)",
+      },
+    ],
+    "selector-max-universal": [
+      0,
+      {
+        "severity": "warning",
+        "message": "Performance: Prevent universal-selector usage. (selector-max-universal)",
+      },
+    ],
+    "string-quotes": "double",
+    "unit-blacklist": [
+      "px",
+      {
+        "ignoreProperties": {
+          "px": [
+            "/top|right|bottom|left/",
+            "/^border/",
+            "/shadow$/",
+          ],
+        },
+      }
+    ],
+    "unit-no-unknown": true,
+    "value-list-comma-space-after": "always-single-line",
+  }
+}

@@ -1,0 +1,430 @@
+<monitors version="1">
+  <configuration>
+    <clone>no</clone>
+    <output name="eDP-1">
+      <vendor>unknown</vendor>
+      <product>unknown</product>
+      <serial>unknown</serial>
+      <width>1440</width>
+      <height>900</height>
+      <rate>59.887947082519531</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI-2">
+      <vendor>DEL</vendor>
+      <product>DELL 2208WFP</product>
+      <serial>H069H8CQ181I</serial>
+      <width>1680</width>
+      <height>1050</height>
+      <rate>59.954746246337891</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>APP</vendor>
+      <product>Color LCD</product>
+      <serial>0x00000000</serial>
+      <width>1440</width>
+      <height>900</height>
+      <rate>59.887947082519531</rate>
+      <x>1680</x>
+      <y>150</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI-1">
+      <vendor>unknown</vendor>
+      <product>unknown</product>
+      <serial>unknown</serial>
+      <width>1600</width>
+      <height>900</height>
+      <rate>60.000499725341797</rate>
+      <x>1440</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>HWP</vendor>
+      <product>HP W2072a</product>
+      <serial>CNC228RQKQ</serial>
+      <width>1440</width>
+      <height>900</height>
+      <rate>59.887947082519531</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="DP-1">
+      <vendor>FNI</vendor>
+      <product>MAGNAVOX</product>
+      <serial>0x00000000</serial>
+      <width>1360</width>
+      <height>768</height>
+      <rate>60.015655517578125</rate>
+      <x>3040</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="HDMI-2">
+      <vendor>HWP</vendor>
+      <product>HP W2072a</product>
+      <serial>CNC228RQKQ</serial>
+      <width>1600</width>
+      <height>900</height>
+      <rate>60.000499725341797</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>APP</vendor>
+      <product>Color LCD</product>
+      <serial>0x00000000</serial>
+      <width>1440</width>
+      <height>900</height>
+      <rate>59.887947082519531</rate>
+      <x>1600</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI-2">
+      <vendor>HWP</vendor>
+      <product>HP 27er</product>
+      <serial>3CM7130VQJ   </serial>
+      <width>1920</width>
+      <height>1080</height>
+      <rate>60.000495910644531</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>APP</vendor>
+      <product>Color LCD</product>
+      <serial>0x00000000</serial>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI-2">
+      <vendor>unknown</vendor>
+      <product>unknown</product>
+      <serial>unknown</serial>
+      <width>1600</width>
+      <height>900</height>
+      <rate>60.000499725341797</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>unknown</vendor>
+      <product>unknown</product>
+      <serial>unknown</serial>
+      <width>1440</width>
+      <height>900</height>
+      <rate>59.887947082519531</rate>
+      <x>1600</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="eDP-1">
+      <vendor>APP</vendor>
+      <product>Color LCD</product>
+      <serial>0x00000000</serial>
+      <width>1440</width>
+      <height>900</height>
+      <rate>59.887947082519531</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI-2">
+      <vendor>BBY</vendor>
+      <product>DX-32L221A12</product>
+      <serial>0x01010101</serial>
+      <width>1920</width>
+      <height>1080</height>
+      <rate>60.000495910644531</rate>
+      <x>1440</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>APP</vendor>
+      <product>Color LCD</product>
+      <serial>0x00000000</serial>
+      <width>1440</width>
+      <height>900</height>
+      <rate>59.887947082519531</rate>
+      <x>0</x>
+      <y>180</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI-1">
+      <vendor>HWP</vendor>
+      <product>HP W2072a</product>
+      <serial>CNC228RQKQ</serial>
+      <width>1600</width>
+      <height>900</height>
+      <rate>60.000499725341797</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="HDMI-2">
+      <vendor>FNI</vendor>
+      <product>MAGNAVOX</product>
+      <serial>0x00000000</serial>
+      <width>1920</width>
+      <height>1080</height>
+      <rate>30.000497817993164</rate>
+      <x>3040</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>APP</vendor>
+      <product>Color LCD</product>
+      <serial>0x00000000</serial>
+      <width>1440</width>
+      <height>900</height>
+      <rate>59.887947082519531</rate>
+      <x>1600</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI-2">
+      <vendor>HWP</vendor>
+      <product>HP W2072a</product>
+      <serial>CNC228RQKQ</serial>
+      <width>1600</width>
+      <height>900</height>
+      <rate>60.000499725341797</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>APP</vendor>
+      <product>Color LCD</product>
+      <serial>0x00000000</serial>
+      <width>1440</width>
+      <height>900</height>
+      <rate>59.887947082519531</rate>
+      <x>1600</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="eDP1">
+      <vendor>APP</vendor>
+      <product>Color LCD</product>
+      <serial>0x00000000</serial>
+      <width>1400</width>
+      <height>900</height>
+      <rate>59.999492645263672</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI-2">
+      <vendor>VIZ</vendor>
+      <product>M320SL</product>
+      <serial>UKLYAM0100001</serial>
+      <width>1920</width>
+      <height>1080</height>
+      <rate>60.000495910644531</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>APP</vendor>
+      <product>Color LCD</product>
+      <serial>0x00000000</serial>
+      <width>1440</width>
+      <height>900</height>
+      <rate>59.887947082519531</rate>
+      <x>1920</x>
+      <y>180</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI-2">
+      <vendor>BBY</vendor>
+      <product>DX-32L221A12</product>
+      <serial>0x01010101</serial>
+      <width>1920</width>
+      <height>1080</height>
+      <rate>59.940700531005859</rate>
+      <x>1440</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>unknown</vendor>
+      <product>unknown</product>
+      <serial>unknown</serial>
+      <width>1440</width>
+      <height>900</height>
+      <rate>59.887947082519531</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+</monitors>

@@ -1,0 +1,1 @@
+{"source":".atom-gmail-check-preview {\n  padding: 3px 10px;\n  width: 100%;\n  overflow: hidden;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n}\n.atom-gmail-checker > h1 {\n  margin-top: 10px;\n  padding: 10px 5px;\n  background-color: #2f343f;\n}\n"}

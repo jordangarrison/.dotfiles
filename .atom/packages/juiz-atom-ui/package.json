@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117328-12645-1hnnh9i.3j8es46lxr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117328-12645-1hnnh9i.3j8es46lxr/package.tgz",
+        "spec": "/tmp/d-117328-12645-1hnnh9i.3j8es46lxr/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117328-12645-1iboa2r.90xmyrpb9"
+    ]
+  ],
+  "_from": "../d-117328-12645-1hnnh9i.3j8es46lxr/package.tgz",
+  "_id": "juiz-atom-ui@1.1.0",
+  "_inCache": true,
+  "_location": "/juiz-atom-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117328-12645-1hnnh9i.3j8es46lxr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117328-12645-1hnnh9i.3j8es46lxr/package.tgz",
+    "spec": "/tmp/d-117328-12645-1hnnh9i.3j8es46lxr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117328-12645-1hnnh9i.3j8es46lxr/package.tgz",
+  "_shasum": "98c579877f7d3598c721831b1a0a802806d4b2d0",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117328-12645-1hnnh9i.3j8es46lxr/package.tgz",
+  "_where": "/tmp/apm-install-dir-117328-12645-1iboa2r.90xmyrpb9",
+  "bugs": {
+    "url": "https://github.com/and2352000/ui-theme-template/issues"
+  },
+  "dependencies": {},
+  "description": "My favorite UI theme lol",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/and2352000/ui-theme-template#readme",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "juiz-atom-ui",
+  "optionalDependencies": {},
+  "readme": "# Juiz UI theme\n\nA UI theme which create by Juiz.\n\nFeature:<br>\n1.Good looking.<br>\n2.Zoom in when u hover the Tab or list-item of tree.<br>\n3.Please use this UI with file-icon packages and monokai packages<br>\n\n![A screenshot of your theme](http://140.134.29.2/ray/atomPic/juiz-atom-ui2.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/and2352000/ui-theme-template.git"
+  },
+  "theme": "ui",
+  "version": "1.1.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

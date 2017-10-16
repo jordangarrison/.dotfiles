@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117328-13565-1w0tfv6.l7rrmjkyb9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117328-13565-1w0tfv6.l7rrmjkyb9/package.tgz",
+        "spec": "/tmp/d-117328-13565-1w0tfv6.l7rrmjkyb9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117328-13565-18oz7h6.czjc7n9udi"
+    ]
+  ],
+  "_from": "../d-117328-13565-1w0tfv6.l7rrmjkyb9/package.tgz",
+  "_id": "lxso-theme@0.0.1",
+  "_inCache": true,
+  "_location": "/lxso-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117328-13565-1w0tfv6.l7rrmjkyb9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117328-13565-1w0tfv6.l7rrmjkyb9/package.tgz",
+    "spec": "/tmp/d-117328-13565-1w0tfv6.l7rrmjkyb9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117328-13565-1w0tfv6.l7rrmjkyb9/package.tgz",
+  "_shasum": "ebe9e6d2311b1586465996cb2899b8ca19ec0f45",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117328-13565-1w0tfv6.l7rrmjkyb9/package.tgz",
+  "_where": "/tmp/apm-install-dir-117328-13565-18oz7h6.czjc7n9udi",
+  "bugs": {
+    "url": "https://github.com/jotavejv/lxso-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Atom syntax theme by JV",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/jotavejv/lxso-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "lxso-theme",
+  "optionalDependencies": {},
+  "readme": "# lxso-syntax theme\n\nAtom syntax theme by JV\n\n- Using with Atom Dark UI Theme\n\n![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotavejv/lxso-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.0.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

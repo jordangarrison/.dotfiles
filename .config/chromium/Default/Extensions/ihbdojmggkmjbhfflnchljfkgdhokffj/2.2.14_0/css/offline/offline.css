@@ -1,0 +1,57 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	padding: 0 20px;
+	font: 12px/1.334 Tahoma, Geneva, Verdana, sans-serif;
+	color: #303030;
+	cursor: default;
+	background: #e8e8e8;
+}
+
+
+.l-container {
+	margin: auto;
+	min-width: 400px;
+	max-width: 800px;
+}
+
+.l-header {
+	padding: 0 0 13px;
+}
+.l-header-title {
+	margin: 12px 0 -4px;
+	font-size: 24px;
+	font-weight: normal;
+}
+.l-header-title > i {
+	display: inline-block;
+	margin: 0 0 0 4px;
+	width: 13px;
+	height: 17px;
+	background: url("chrome-extension://__MSG_@@extension_id__/img/sprite_offline1.png");
+}
+.l-header > span {
+	color: #8a8a8a;
+}
+
+textarea {
+	box-sizing: border-box;
+	margin: 0 0 10px;
+	width: 100%;
+	font-size: inherit;
+	font-family: inherit;
+	line-height: inherit;
+	border: 1px solid #c4c4c4;
+	border-radius: 2px;
+	resize: vertical;
+	vertical-align: top;
+}
+textarea:focus {
+	border-color: #4dbd85;
+	box-shadow: 0 0 0 3px rgba(77, 189, 133, .1);
+	outline: 0;
+}

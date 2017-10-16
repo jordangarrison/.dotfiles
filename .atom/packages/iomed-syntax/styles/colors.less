@@ -1,0 +1,31 @@
+
+// Config -----------------------------------
+@syntax-hue:          229;
+@syntax-saturation:   37%;
+@syntax-brightness:   19%;
+
+
+// Monochrome -----------------------------------
+@mono-1: hsl(@syntax-hue, 14%, 71%); // default text
+@mono-2: hsl(@syntax-hue,  9%, 55%);
+@mono-3: hsl(@syntax-hue, 10%, 40%);
+
+// Colors -----------------------------------
+@hue-1:   hsl(154, 54%, 59%); // Green
+@hue-2:   hsl(196, 81%, 63%); // Blue
+@hue-3:   hsl(332, 90%, 75%); // Pink
+@hue-4:   rgb(53, 77%, 55%); // Orange
+
+@hue-5:   hsl(14, 71%, 62%); // <-(was red 1) (non-Python variable, tag, etc.)
+@hue-5-2: hsl(  5, 48%, 51%); // <-red 2
+
+@hue-6:   hsl(45, 99%, 55%); // <-orange 1 (attribute, numeric/constant, special value, string placeholder, regexp character class, etc.)
+@hue-6-2: hsl(30, 100%, 70%); // <-orange 2 (class name)
+
+
+// Base colors -----------------------------------
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: darken(@syntax-fg, 26%);
+@syntax-guide:  fade(@syntax-fg, 15%);
+@syntax-accent: hsl(@syntax-hue, 100%, 66% );

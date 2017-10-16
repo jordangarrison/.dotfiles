@@ -1,0 +1,40 @@
+[Data Source]
+DisplayName=jordan.andrew.garrison@gmail.com
+Enabled=true
+Parent=
+
+[GNOME Online Accounts]
+AccountId=account_1488705701_0
+CalendarUrl=https://apidata.googleusercontent.com/caldav/v2/jordan.andrew.garrison@gmail.com/user
+ContactsUrl=https://www.googleapis.com/.well-known/carddav
+
+Name=
+Address=jordan.andrew.garrison@gmail.com
+
+[Collection]
+BackendName=google
+CalendarEnabled=true
+ContactsEnabled=true
+Identity=jordan.andrew.garrison@gmail.com
+MailEnabled=true
+
+[Authentication]
+Host=
+Method=OAuth2
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=
+CredentialName=
+
+[WebDAV Backend]
+AvoidIfmatch=false
+CalendarAutoSchedule=false
+DisplayName=
+EmailAddress=
+ResourcePath=
+ResourceQuery=
+SslTrust=temporary-accept|apidata.googleusercontent.com|4446c1b04a4a883f6d9a9e80c63395672d61d647
+
+[Security]
+Method=none

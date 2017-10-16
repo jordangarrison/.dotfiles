@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11747-21012-1ierwxg.upq09kke29/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11747-21012-1ierwxg.upq09kke29/package.tgz",
+        "spec": "/tmp/d-11747-21012-1ierwxg.upq09kke29/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11747-21012-mda6r5.k9up8vkj4i"
+    ]
+  ],
+  "_from": "../d-11747-21012-1ierwxg.upq09kke29/package.tgz",
+  "_id": "arc-ui@0.1.7",
+  "_inCache": true,
+  "_location": "/arc-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11747-21012-1ierwxg.upq09kke29/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11747-21012-1ierwxg.upq09kke29/package.tgz",
+    "spec": "/tmp/d-11747-21012-1ierwxg.upq09kke29/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11747-21012-1ierwxg.upq09kke29/package.tgz",
+  "_shasum": "6077758e38e38092531a0cd5ce35e25dab97c1ec",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11747-21012-1ierwxg.upq09kke29/package.tgz",
+  "_where": "/tmp/apm-install-dir-11747-21012-mda6r5.k9up8vkj4i",
+  "bugs": {
+    "url": "https://github.com/ruhatch/arc-ui/issues"
+  },
+  "dependencies": {},
+  "description": "An adaptable, minimalist UI theme for Atom, based on Arc GTK theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ruhatch/arc-ui#readme",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "arc-ui",
+  "optionalDependencies": {},
+  "readme": "# Arc UI Theme\n\nA adaptable, minimalist UI theme based on the popular Arc GTK theme. This is a WIP so please open an issue if you see anything wrong/ugly.\n\n![A screenshot of your theme](https://raw.githubusercontent.com/ruhatch/arc-ui/master/arc-ui.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruhatch/arc-ui.git"
+  },
+  "theme": "ui",
+  "version": "0.1.7",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

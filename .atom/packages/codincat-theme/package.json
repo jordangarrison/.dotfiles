@@ -1,0 +1,76 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11744-19117-1bn7p96.zapruanhfr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11744-19117-1bn7p96.zapruanhfr/package.tgz",
+        "spec": "/tmp/d-11744-19117-1bn7p96.zapruanhfr/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11744-19117-1e1q4nn.9kbrb8d7vi"
+    ]
+  ],
+  "_from": "../d-11744-19117-1bn7p96.zapruanhfr/package.tgz",
+  "_id": "codincat-theme@1.4.0",
+  "_inCache": true,
+  "_location": "/codincat-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11744-19117-1bn7p96.zapruanhfr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11744-19117-1bn7p96.zapruanhfr/package.tgz",
+    "spec": "/tmp/d-11744-19117-1bn7p96.zapruanhfr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11744-19117-1bn7p96.zapruanhfr/package.tgz",
+  "_shasum": "fd5306ffc2faca4ab43255c8030130a54526411f",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11744-19117-1bn7p96.zapruanhfr/package.tgz",
+  "_where": "/tmp/apm-install-dir-11744-19117-1e1q4nn.9kbrb8d7vi",
+  "bugs": {
+    "url": "https://github.com/CodinCat/codincat-theme-atom/issues"
+  },
+  "dependencies": {},
+  "description": "An easy on eyes syntax theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/CodinCat/codincat-theme-atom#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "dimmed",
+    "dark",
+    "color scheme"
+  ],
+  "license": "MIT",
+  "name": "codincat-theme",
+  "optionalDependencies": {},
+  "readme": "![](http://i.imgur.com/ijebw2R.png)\n\nThis color scheme uses more warm and lower brightness colors, which should be easy on your eyes. (It may look a little bit yellow (or *dirty*), this is intended.)\n\nRecommended fonts: [Fira Mono](https://mozilla.github.io/Fira/), [Input](http://input.fontbureau.com/) (the font of the screenshot above) or [Hack](https://github.com/chrissimpkins/Hack).\n\nI'll also recommend the [f.lux](https://justgetflux.com/) app.\n\n> Looking for the VSCode theme? [It's here](https://marketplace.visualstudio.com/items?itemName=CodinCat.codincat-theme)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodinCat/codincat-theme-atom.git"
+  },
+  "theme": "syntax",
+  "version": "1.4.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

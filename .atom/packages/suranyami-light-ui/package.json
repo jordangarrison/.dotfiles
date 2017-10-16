@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117328-12560-1xptwkp.mga3vxi529/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117328-12560-1xptwkp.mga3vxi529/package.tgz",
+        "spec": "/tmp/d-117328-12560-1xptwkp.mga3vxi529/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117328-12560-1brulwg.w16s1qbyb9"
+    ]
+  ],
+  "_from": "../d-117328-12560-1xptwkp.mga3vxi529/package.tgz",
+  "_id": "suranyami-light-ui@2.0.0",
+  "_inCache": true,
+  "_location": "/suranyami-light-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117328-12560-1xptwkp.mga3vxi529/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117328-12560-1xptwkp.mga3vxi529/package.tgz",
+    "spec": "/tmp/d-117328-12560-1xptwkp.mga3vxi529/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117328-12560-1xptwkp.mga3vxi529/package.tgz",
+  "_shasum": "b403f2e7d3c43e9370faf298d15ec43a74fb13c8",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117328-12560-1xptwkp.mga3vxi529/package.tgz",
+  "_where": "/tmp/apm-install-dir-117328-12560-1brulwg.w16s1qbyb9",
+  "bugs": {
+    "url": "https://github.com/suranyami/suranyami-light-ui/issues"
+  },
+  "dependencies": {},
+  "description": "Light UI theme with tighter sidebar",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/suranyami/suranyami-light-ui#readme",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "suranyami-light-ui",
+  "optionalDependencies": {},
+  "readme": "# Suranyami Light UI theme\n\nFork of the Atom Light UI theme but with:\n\n* tighter line-spacing in the sidebar\n* increased tree view font-size\n\n![screen shot of Suranyami Light UI Theme](https://raw.githubusercontent.com/suranyami/suranyami-light-ui/master/ui-screen-shot.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suranyami/suranyami-light-ui.git"
+  },
+  "theme": "ui",
+  "version": "2.0.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

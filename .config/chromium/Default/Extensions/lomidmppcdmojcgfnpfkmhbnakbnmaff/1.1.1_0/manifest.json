@@ -1,0 +1,19 @@
+{
+   "content_scripts": [ {
+      "js": [ "tweaker.js" ],
+      "matches": [ "https://www.google.com/voice*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Make your Google Voice page a little better.",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "32": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbbewfeznFXz6GMxQ5H+8ujJI/D0xrm8PcwcegIEq0J+Ynnpe2ez2v73m37vPFC4GrVwmWM8Xq4mQg0aMfWMtHM1GmIGMHf0eZqiyrn5CybDyh9U0A6crl0o2vAA6kdyizHM5XIW5e16MojCmP+fcJcKjVZ26e5hSoH7L0qLqjPwIDAQAB",
+   "manifest_version": 2,
+   "name": "Tweaks for Google Voice™",
+   "short_name": "GVoice Tweaks",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1"
+}

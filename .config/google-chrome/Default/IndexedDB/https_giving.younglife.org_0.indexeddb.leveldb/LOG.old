@@ -1,0 +1,9 @@
+2017/10/15-17:53:42.623 20117 Reusing MANIFEST /home/jgarrison/.config/google-chrome/Default/IndexedDB/https_giving.younglife.org_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/15-17:53:43.258 20117 Current memtable full; waiting...
+2017/10/15-17:53:43.258 27929 Level-0 table #5: started
+2017/10/15-17:53:43.273 27929 Level-0 table #5: 345233 bytes OK
+2017/10/15-17:53:43.281 27929 Delete type=0 #3
+2017/10/15-17:53:43.281 27929 Level-0 table #7: started
+2017/10/15-17:53:43.281 27929 Level-0 table #7: 0 bytes OK
+2017/10/15-17:53:43.289 27929 Delete type=0 #4
+2017/10/15-17:53:43.289 27929 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117328-11401-12b0af.topqyyzaor/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117328-11401-12b0af.topqyyzaor/package.tgz",
+        "spec": "/tmp/d-117328-11401-12b0af.topqyyzaor/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117328-11401-1wrg8hw.45z2f647vi"
+    ]
+  ],
+  "_from": "../d-117328-11401-12b0af.topqyyzaor/package.tgz",
+  "_id": "base16-melon-theme@0.4.0",
+  "_inCache": true,
+  "_location": "/base16-melon-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117328-11401-12b0af.topqyyzaor/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117328-11401-12b0af.topqyyzaor/package.tgz",
+    "spec": "/tmp/d-117328-11401-12b0af.topqyyzaor/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117328-11401-12b0af.topqyyzaor/package.tgz",
+  "_shasum": "ffacdc1f7884e97395a74175f87938607a2cd6ef",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117328-11401-12b0af.topqyyzaor/package.tgz",
+  "_where": "/tmp/apm-install-dir-117328-11401-1wrg8hw.45z2f647vi",
+  "bugs": {
+    "url": "https://github.com/tdheff/base16-melon-theme/issues"
+  },
+  "dependencies": {},
+  "description": "A short description of your syntax theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/tdheff/base16-melon-theme#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "base16-melon-theme",
+  "optionalDependencies": {},
+  "readme": "# melon-theme theme\n\nA short description of your theme.\n\n![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdheff/base16-melon-theme.git"
+  },
+  "theme": "syntax",
+  "version": "0.4.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

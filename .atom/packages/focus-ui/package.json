@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117328-12645-muwbj5.cu7itnvcxr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117328-12645-muwbj5.cu7itnvcxr/package.tgz",
+        "spec": "/tmp/d-117328-12645-muwbj5.cu7itnvcxr/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117328-12645-v3k1x5.hpahy3nmi"
+    ]
+  ],
+  "_from": "../d-117328-12645-muwbj5.cu7itnvcxr/package.tgz",
+  "_id": "focus-ui@2.6.0",
+  "_inCache": true,
+  "_location": "/focus-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117328-12645-muwbj5.cu7itnvcxr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117328-12645-muwbj5.cu7itnvcxr/package.tgz",
+    "spec": "/tmp/d-117328-12645-muwbj5.cu7itnvcxr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117328-12645-muwbj5.cu7itnvcxr/package.tgz",
+  "_shasum": "7570fc8257a575f3563edea4262d6406b99060c2",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117328-12645-muwbj5.cu7itnvcxr/package.tgz",
+  "_where": "/tmp/apm-install-dir-117328-12645-v3k1x5.hpahy3nmi",
+  "bugs": {
+    "url": "https://github.com/scottcorgan/focus-ui/issues"
+  },
+  "dependencies": {},
+  "description": "An Atom UI theme to focus",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/scottcorgan/focus-ui#readme",
+  "keywords": [
+    "ui",
+    "theme",
+    "focus",
+    "simple",
+    "clean",
+    "opacity"
+  ],
+  "license": "MIT",
+  "name": "focus-ui",
+  "optionalDependencies": {},
+  "readme": "# focus-ui (An Atom UI Theme)\n\nA _very_ simple ui theme to focus on what you're focusing on.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottcorgan/focus-ui.git"
+  },
+  "theme": "ui",
+  "version": "2.6.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

@@ -1,0 +1,69 @@
+.settings-view {
+
+  .keybinding-panel {
+    position: relative;
+
+    .table {
+      border: none;
+      width: 100%;
+
+      thead {
+
+        tr {
+          border-bottom: 1px solid @base-border-color;
+        }
+
+        th {
+          border: none;
+          padding: @component-padding;
+          width: auto;
+          height: auto;
+        }
+      }
+
+      tbody {
+
+        tr {
+
+          &:hover {
+            background-color: fade(@ui-selection-color, 5%);
+          }
+
+          & + tr {
+            border-top: 1px solid @base-border-color;
+          }
+        }
+        td {
+          overflow: auto;
+          border: none;
+          padding: @component-padding;
+          width: auto;
+          max-width: 10em;
+          height: auto;
+          word-wrap: break-word;
+          white-space: normal;
+
+          & + td {
+            border: none;
+          }
+        }
+      }
+
+      .keystroke {
+        border: none;
+        font-size: inherit;
+        word-break: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+      }
+
+      .source {
+        white-space: nowrap;
+      }
+
+      .selector {
+        max-width: 40%;
+      }
+    }
+  }
+}

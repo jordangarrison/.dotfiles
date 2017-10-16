@@ -1,0 +1,6 @@
+2017/05/31-22:31:36.445 24154 Reusing MANIFEST /home/jgarrison/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/05/31-22:31:36.445 24154 Recovering log #3
+2017/05/31-22:31:36.451 24154 Reusing old log /home/jgarrison/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000003.log 
+2017/05/31-23:49:18.149 25114 Level-0 table #5: started
+2017/05/31-23:49:18.172 25114 Level-0 table #5: 2504174 bytes OK
+2017/05/31-23:49:18.180 25114 Delete type=0 #3

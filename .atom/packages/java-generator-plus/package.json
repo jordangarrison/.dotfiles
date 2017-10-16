@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11749-12855-2xv9nk.5amzgmbo6r/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11749-12855-2xv9nk.5amzgmbo6r/package.tgz",
+        "spec": "/tmp/d-11749-12855-2xv9nk.5amzgmbo6r/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11749-12855-1qvejnr.u3yjnka9k9"
+    ]
+  ],
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/command.coffee",
+        "lib/java-generator.coffee",
+        "lib/parser.coffee",
+        "lib/variable.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  },
+  "_from": "../d-11749-12855-2xv9nk.5amzgmbo6r/package.tgz",
+  "_id": "java-generator-plus@2.6.0",
+  "_inCache": true,
+  "_location": "/java-generator-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11749-12855-2xv9nk.5amzgmbo6r/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11749-12855-2xv9nk.5amzgmbo6r/package.tgz",
+    "spec": "/tmp/d-11749-12855-2xv9nk.5amzgmbo6r/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11749-12855-2xv9nk.5amzgmbo6r/package.tgz",
+  "_shasum": "20b7a8674e9e618753d8956b9c2831e6473793e2",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11749-12855-2xv9nk.5amzgmbo6r/package.tgz",
+  "_where": "/tmp/apm-install-dir-11749-12855-1qvejnr.u3yjnka9k9",
+  "activationCommands": {
+    "atom-workspace": [
+      "java-generator:generate-constructor",
+      "java-generator:generate-to-string",
+      "java-generator:generate-builder",
+      "java-generator:generate-getters-setters"
+    ]
+  },
+  "author": {
+    "name": "Tom Delebo",
+    "url": "https://github.com/delebota"
+  },
+  "bugs": {
+    "url": "https://github.com/concon121/java-generator-plus/issues"
+  },
+  "dependencies": {},
+  "description": "Generates getter, setter, toString, constructor, and builder methods for java classes.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/concon121/java-generator-plus/#readme",
+  "keywords": [
+    "atom",
+    "java",
+    "get",
+    "getter",
+    "set",
+    "setter",
+    "constructor",
+    "toString",
+    "generate",
+    "format",
+    "auto",
+    "automatic",
+    "builder"
+  ],
+  "license": "Apache 2.0",
+  "main": "./lib/java-generator",
+  "name": "java-generator-plus",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# Java Generator Plus\n\nAn Atom.io package created to generate getter, setter, toString, constructor, and builder methods for java classes.\n\n## Keyboard Shortcuts\n\n```text\nctrl-alt-g: Generate Getters and Setters\nctrl-alt-c: Generate Constructor\nctrl-alt-t: Generate toString Method\nctrl-alt-b: Generate Builder Method\n```\n\nThis project is a fork of the original java-generator, which you can find [here](https://github.com/delebota/java-generator)",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/concon121/java-generator-plus.git"
+  },
+  "version": "2.6.0"
+}

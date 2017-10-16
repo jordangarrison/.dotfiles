@@ -1,0 +1,32 @@
+2017/10/14-15:19:56.387 5494 Reusing MANIFEST /home/jgarrison/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2017/10/14-15:19:56.387 5494 Recovering log #890
+2017/10/14-15:19:56.445 5494 Level-0 table #894: started
+2017/10/14-15:19:56.539 5494 Level-0 table #894: 2861726 bytes OK
+2017/10/14-15:19:56.551 5494 Delete type=0 #890
+2017/10/14-15:19:56.577 5709 Moved #880 to level-1 2767100 bytes OK: files[ 3 4 7 0 0 0 0 ]
+2017/10/14-15:19:56.577 5709 Compacting 1@1 + 1@2 files
+2017/10/14-15:19:56.697 5709 Generated table #896@1: 1 keys, 2767114 bytes
+2017/10/14-15:19:56.698 5709 Compacted 1@1 + 1@2 files => 2767114 bytes
+2017/10/14-15:19:56.719 5709 compacted to: files[ 3 3 7 0 0 0 0 ]
+2017/10/14-15:19:56.719 5709 Delete type=2 #888
+2017/10/14-15:19:56.721 5709 Delete type=2 #875
+2017/10/14-15:20:58.471 5709 Level-0 table #898: started
+2017/10/14-15:20:58.519 5709 Level-0 table #898: 2861937 bytes OK
+2017/10/14-15:20:58.528 5709 Delete type=0 #895
+2017/10/14-15:20:58.530 5709 Compacting 3@0 + 0@1 files
+2017/10/14-15:20:58.598 5709 Generated table #899@0: 1 keys, 2861669 bytes
+2017/10/14-15:20:58.609 5709 Generated table #900@0: 2 keys, 341 bytes
+2017/10/14-15:20:58.609 5709 Compacted 3@0 + 0@1 files => 2862010 bytes
+2017/10/14-15:20:58.618 5709 compacted to: files[ 1 5 7 0 0 0 0 ]
+2017/10/14-15:20:58.619 5709 Delete type=2 #894
+2017/10/14-15:20:58.619 5709 Delete type=2 #878
+2017/10/14-15:20:58.620 5709 Delete type=2 #898
+2017/10/14-15:20:58.620 5709 Compacting 1@1 + 1@2 files
+2017/10/14-15:20:58.673 5709 Generated table #901@1: 1 keys, 2767115 bytes
+2017/10/14-15:20:58.673 5709 Compacted 1@1 + 1@2 files => 2767115 bytes
+2017/10/14-15:20:58.683 5709 compacted to: files[ 1 4 7 0 0 0 0 ]
+2017/10/14-15:20:58.683 5709 Delete type=2 #876
+2017/10/14-15:20:58.684 5709 Delete type=2 #885
+2017/10/14-15:54:47.597 5709 Level-0 table #903: started
+2017/10/14-15:54:47.652 5709 Level-0 table #903: 2861670 bytes OK
+2017/10/14-15:54:47.661 5709 Delete type=0 #897

@@ -1,0 +1,44 @@
+/*
+** THEME VARIABLES
+*/
+
+// import syntax variables
+@import "syntax-variables";
+
+// UI Colors
+@ui-foreground-color: #ccc;
+@ui-foreground-color: @syntax-text-color;
+
+@ui-background-color: #333;
+@ui-background-color: @syntax-background-color;
+
+@ui-selection-color: fade(@ui-background-color, 20%);
+@ui-selection-color: @syntax-selection-color;
+
+@ui-shadow-color: fade(#000, 80%);
+
+// Reserved colors
+@ui-color-blue: blue;
+@ui-color-blue: @syntax-color-renamed;
+
+@ui-color-green: green;
+@ui-color-green: @syntax-color-added;
+
+@ui-color-orange: orange;
+@ui-color-orange: @syntax-color-modified;
+
+@ui-color-red: red;
+@ui-color-red: @syntax-color-removed;
+
+// UI Sizes
+@ui-whitespace-more: 1.5em;
+@ui-whitespace: 1em;
+@ui-whitespace-less: 0.5em;
+@ui-whitespace-min: 0.25em;
+
+@ui-border-radius: 3px; /* stylelint-disable */
+
+// UI transitions
+@ui-transition-property: opacity, color, background-color;
+@ui-transition-duration: 250ms;
+@ui-transition-timing: ease;

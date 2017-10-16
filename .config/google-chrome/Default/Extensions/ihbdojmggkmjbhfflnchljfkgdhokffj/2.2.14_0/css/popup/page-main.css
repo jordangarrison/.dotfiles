@@ -1,0 +1,91 @@
+
+
+.l-view[view-name="main"] {
+	padding: 24px 0 9px;
+}
+
+
+.p-mainHead {
+	margin: 0 30px 30px;
+}
+.p-mainHead-text {
+	margin: 0 0 10px;
+}
+
+
+.p-mainMenu {
+	margin: 0 30px 40px;
+	border-top: 1px solid #d0d0d0;
+}
+.p-mainMenu-item {
+	position: relative;
+	padding: 13px 0 12px 35px;
+	font-size: 11px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	border-bottom: 1px solid #d0d0d0;
+	cursor: pointer;
+	-webkit-transition: background-color 100ms;
+}
+.p-mainMenu-item:hover {
+	background: rgba(0, 0, 0, .025);
+}
+.p-mainMenu-item:active {
+	background: rgba(0, 0, 0, .065);
+	-webkit-transition: none;
+}
+.p-mainMenu-item:before {
+	content: "";
+	position: absolute;
+	left: 10px;
+	top: 12px;
+	width: 16px;
+	height: 16px;
+	background: url("chrome-extension://__MSG_@@extension_id__/img/sprite_popup1.png");
+	opacity: .8;
+}
+.p-mainMenu-item_arrow:after {
+	content: "";
+	position: absolute;
+	right: 5px;
+	top: 9px;
+	width: 9px;
+	height: 22px;
+	background: url("chrome-extension://__MSG_@@extension_id__/img/sprite_popup1.png") -25px 0;
+	opacity: .2;
+}
+.p-mainMenu-item_readability:before {
+	background-position: -34px 0;
+}
+.p-mainMenu-item_offline:before {
+	background-position: -50px 0;
+}
+.p-mainMenu-item_settings:before {
+	background-position: -66px 0;
+}
+.p-mainMenu-item_help:before {
+	background-position: -82px 0;
+}
+.p-mainMenu-item_advices:before {
+	background-position: -98px 0;
+}
+.p-mainMenu-item_shortcut:before {
+	background-position: -114px 0;
+}
+
+
+.p-mainFooter {
+	color: #8a8a8a;
+	font-size: 11px;
+	text-align: center;
+}
+.p-mainFooter a {
+	color: #8a8a8a;
+	font-weight: bold;
+}
+.p-mainFooter a:hover {
+	text-decoration: none;
+}
+.p-mainFooter > span {
+	margin: 0 7px;
+}

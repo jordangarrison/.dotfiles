@@ -1,0 +1,267 @@
+{
+   "CS_info": {
+      "message": "\u003Cspan>\u003Cb>Наведите курсор на блок с текстом\u003C/b>\u003C/span>\u003Chr/>\u003Cspan>\u003Cb>Левый Клик\u003C/b> или \u003Cb>Enter\u003C/b> запустят чтение\u003C/span>\u003Cspan>\u003Cb>Правый Клик\u003C/b> или \u003Cb>Esc\u003C/b> отменят выделение\u003C/span>\u003Cspan>\u003Cb>Вверх\u003C/b> или \u003Cb>+\u003C/b> увеличат выделение\u003C/span>\u003Cspan>\u003Cb>Вниз\u003C/b> или \u003Cb>-\u003C/b> уменьшат выделение\u003C/span>"
+   },
+   "____OFFLINE_________________________________________________________": {
+      "message": ""
+   },
+   "____POPUP_MAIN_________________________________________________________": {
+      "message": ""
+   },
+   "____POPUP_SETTINGS_________________________________________________________": {
+      "message": ""
+   },
+   "____POPUP_________________________________________________________": {
+      "message": ""
+   },
+   "____READER_________________________________________________________": {
+      "message": ""
+   },
+   "autostart": {
+      "message": "Автостарт"
+   },
+   "autostartDescr": {
+      "message": "Запускать чтение сразу после открытия Reedy."
+   },
+   "cancel": {
+      "message": "Отмена"
+   },
+   "cantLaunchOnSystemPages": {
+      "message": "Расширения Google Chrome не могут быть запущены на системных страницах, а&nbsp;также в Chrome WebStore."
+   },
+   "cantParse": {
+      "message": "Reedy не может обработать выделенный текст."
+   },
+   "clickToStart": {
+      "message": "Кликните по экрану или нажмите \u003Ci>пробел\u003C/i>\u003Cspan>←&nbsp;&nbsp;&nbsp;&nbsp;клик вне области чтения закроет Reedy&nbsp;&nbsp;&nbsp;&nbsp;→\u003C/span>"
+   },
+   "color_background": {
+      "message": "Основной фон"
+   },
+   "color_context": {
+      "message": "Контекст"
+   },
+   "color_letter": {
+      "message": "Точка фокусировки"
+   },
+   "color_word": {
+      "message": "Отображаемое слово"
+   },
+   "contextMenu": {
+      "message": "Запустить Reedy"
+   },
+   "ctrl_bgTransparency": {
+      "message": "Прозрачный фон"
+   },
+   "ctrl_close": {
+      "message": "Закрыть Reedy [esc]"
+   },
+   "ctrl_decSpeed": {
+      "message": "Уменьшить скорость [down]"
+   },
+   "ctrl_firstWord": {
+      "message": "В начало [home]"
+   },
+   "ctrl_incSpeed": {
+      "message": "Увеличить скорость [up]"
+   },
+   "ctrl_largerFont": {
+      "message": "Увеличить шрифт [ctrl+up]"
+   },
+   "ctrl_lastWord": {
+      "message": "В конец [end]"
+   },
+   "ctrl_nextSentence": {
+      "message": "Следующее предложение [ctrl+right]"
+   },
+   "ctrl_nextWord": {
+      "message": "Следующее слово [right]"
+   },
+   "ctrl_playPause": {
+      "message": "Play/pause [space]"
+   },
+   "ctrl_prevSentence": {
+      "message": "Предыдущее предложение [ctrl+left]"
+   },
+   "ctrl_prevWord": {
+      "message": "Предыдущее слово [left]"
+   },
+   "ctrl_smallerFont": {
+      "message": "Уменьшить шрифт [ctrl+down]"
+   },
+   "ctrl_switchTheme": {
+      "message": "Переключить тему"
+   },
+   "ctrl_vPosition": {
+      "message": "Вертикальное положение"
+   },
+   "defaultFont": {
+      "message": "- По умолчанию -"
+   },
+   "developersHomePage": {
+      "message": "https://vk.com/olegcherr"
+   },
+   "donatePage": {
+      "message": "http://reedy.azagroup.ru/donate/"
+   },
+   "emptySentenceEnd": {
+      "message": "Разрыв между предложениями"
+   },
+   "emptySentenceEndDescr": {
+      "message": "Добавлять «пустое слово» перед началом следующего предложения."
+   },
+   "entityAnalysis": {
+      "message": "Анализатор сущностей"
+   },
+   "entityAnalysisDescr": {
+      "message": "Позволяет отображать распространённые конструкции слитно. Производит анализ пунктуации. Корректирует базовое оформление текста."
+   },
+   "focusMode": {
+      "message": "Режим фокуса"
+   },
+   "focusModeDescr": {
+      "message": "Точка фокусировки будет смещена ближе к началу слова и выделена красным."
+   },
+   "font_bold": {
+      "message": "Полужирный"
+   },
+   "font_family": {
+      "message": "Шрифт"
+   },
+   "gradualAccel": {
+      "message": "Плавное ускорение"
+   },
+   "gradualAccelDescr": {
+      "message": "Начинать чтение с меньшей скоростью и плавно повышать до требуемой."
+   },
+   "hyphenation": {
+      "message": "Переносы слов"
+   },
+   "hyphenationDescr": {
+      "message": "Разделять сложные слова на части."
+   },
+   "locale": {
+      "message": "ru"
+   },
+   "main_closeReaderBtn": {
+      "message": "Завершить чтение"
+   },
+   "main_startContentSelectorBtn": {
+      "message": "Выбрать элемент на странице"
+   },
+   "main_startReadingBtn": {
+      "message": "Запустить Reedy"
+   },
+   "main_startReadingInfo": {
+      "message": "Чтобы начать чтение выделите текст, кликните правой кнопкой и выберите \u003Cb>Запустить Reedy\u003C/b>.\u003Cbr/>Либо просто нажмите \u003Cb class='j-shortcut'>Alt+S\u003C/b>."
+   },
+   "offline_clearBtn": {
+      "message": "Очистить"
+   },
+   "offline_saveTextBtn": {
+      "message": "Сохранить текст"
+   },
+   "offline_startReadingBtn": {
+      "message": "Запустить Reedy"
+   },
+   "progressBar": {
+      "message": "Прогресс бар"
+   },
+   "progressBarDescr": {
+      "message": "Отображать текущий прогресс чтения."
+   },
+   "saveChanges": {
+      "message": "Сохранить изменения"
+   },
+   "sequel": {
+      "message": "Продолжение текста"
+   },
+   "sequelDescr": {
+      "message": "Показывать текст, следующий за текущим словом."
+   },
+   "settings_appearance": {
+      "message": "Отображение"
+   },
+   "settings_parsing": {
+      "message": "Обработка текста"
+   },
+   "settings_reading": {
+      "message": "Настройки чтения"
+   },
+   "settings_theme": {
+      "message": "Стилизация"
+   },
+   "smartSlowing": {
+      "message": "Интеллектуальное замедление"
+   },
+   "smartSlowingDescr": {
+      "message": "Увеличивать время отображения на пунктуации и сложных словах."
+   },
+   "timeLeft": {
+      "message": "Оставшееся время"
+   },
+   "timeLeftDescr": {
+      "message": "Показывать расчётное время до конца чтения."
+   },
+   "timeLeft_h": {
+      "message": "$val$ \u003Ci>ч\u003C/i>",
+      "placeholders": {
+         "val": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeLeft_left": {
+      "message": "\u003Ci>осталось\u003C/i> $str$",
+      "placeholders": {
+         "str": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeLeft_lessThan": {
+      "message": "\u003Ci>менее\u003C/i> $str$",
+      "placeholders": {
+         "str": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeLeft_min": {
+      "message": "$val$ \u003Ci>мин\u003C/i>",
+      "placeholders": {
+         "val": {
+            "content": "$1"
+         }
+      }
+   },
+   "timeLeft_sec": {
+      "message": "$val$ \u003Ci>сек\u003C/i>",
+      "placeholders": {
+         "val": {
+            "content": "$1"
+         }
+      }
+   },
+   "view_advices": {
+      "message": "Рекомендации"
+   },
+   "view_help": {
+      "message": "Как пользоваться"
+   },
+   "view_offline": {
+      "message": "Вставить свой текст"
+   },
+   "view_readability": {
+      "message": "Автоматический поиск текста"
+   },
+   "view_settings": {
+      "message": "Настройки"
+   },
+   "view_shortcut": {
+      "message": "Сочетание клавиш"
+   },
+   "wrongShortcut": {
+      "message": "Недопустимое сочетание"
+   }
+}

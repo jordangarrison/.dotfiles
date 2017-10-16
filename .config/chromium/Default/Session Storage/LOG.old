@@ -1,0 +1,20 @@
+2017/09/20-18:42:14.275 23950 Reusing MANIFEST /home/jgarrison/.config/chromium/Default/Session Storage/MANIFEST-000001
+2017/09/20-18:42:14.275 23950 Recovering log #2430
+2017/09/20-18:42:14.277 23950 Reusing old log /home/jgarrison/.config/chromium/Default/Session Storage/002430.log 
+2017/09/23-14:00:19.725 8889 Level-0 table #2434: started
+2017/09/23-14:00:19.735 8889 Level-0 table #2434: 23903 bytes OK
+2017/09/23-14:00:19.746 8889 Delete type=0 #2430
+2017/09/23-14:23:27.567 8889 Level-0 table #2436: started
+2017/09/23-14:23:27.580 8889 Level-0 table #2436: 20324 bytes OK
+2017/09/23-14:23:27.601 8889 Delete type=0 #2433
+2017/09/23-14:23:27.602 8889 Compacting 4@0 + 2@1 files
+2017/09/23-14:23:27.622 8889 Generated table #2437@0: 3274 keys, 51313 bytes
+2017/09/23-14:23:27.634 8889 Generated table #2438@0: 1268 keys, 49654 bytes
+2017/09/23-14:23:27.634 8889 Compacted 4@0 + 2@1 files => 100967 bytes
+2017/09/23-14:23:27.645 8889 compacted to: files[ 0 2 11 0 0 0 0 ]
+2017/09/23-14:23:27.645 8889 Delete type=2 #2431
+2017/09/23-14:23:27.645 8889 Delete type=2 #2426
+2017/09/23-14:23:27.645 8889 Delete type=2 #2428
+2017/09/23-14:23:27.645 8889 Delete type=2 #2436
+2017/09/23-14:23:27.645 8889 Delete type=2 #2434
+2017/09/23-14:23:27.645 8889 Delete type=2 #2425

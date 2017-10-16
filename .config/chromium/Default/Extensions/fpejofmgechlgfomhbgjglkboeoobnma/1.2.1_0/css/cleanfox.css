@@ -1,0 +1,485 @@
+.cleanfox_btn {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241));
+    border-image-outset:0;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-source:none;
+    border-image-width:1;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.0980392);
+    box-shadow:none;
+    color:rgb(68, 68, 68);
+    cursor:default;
+    display:inline-block;
+    font-family:arial, sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    height:20px;
+    line-height:20px;
+    margin:2px 5%;
+    outline: rgb(68, 68, 68) none 0;
+    padding: 0 8px;
+    width: 80%;
+    position:relative;
+    text-align:center;
+    user-select:none;
+    white-space:nowrap;
+}
+
+.cleanfox_btn > span {
+    border-collapse:collapse;
+    color:rgb(68, 68, 68);
+    cursor:default;
+    direction:ltr;
+    display:inline;
+    font-family:arial, sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    height:auto;
+    line-height:16px;
+    text-align:center;
+    text-transform:none;
+    unicode-bidi:isolate;
+    user-select:none;
+    visibility:visible;
+    white-space:nowrap;
+    width:auto;
+    word-wrap:normal;
+    -webkit-border-horizontal-spacing:2px;
+    -webkit-border-vertical-spacing:2px;
+}
+
+.cleanfox_icon {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.cleanfox_logo {
+    cursor: pointer;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('chrome-extension://__MSG_@@extension_id__/img/cleanfox_logo.png');
+}
+
+.cleanfox_unsubscribe {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/img/ic_block.png');
+}
+
+.cleanfox_unsubscribe:hover {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/img/ic_block_hover.png');
+}
+
+.cleanfox_delete {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/img/ic_delete.png');
+}
+
+.cleanfox_delete:hover {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/img/ic_delete_hover.png');
+}
+
+.cleanfox_filter {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/img/ic_archive.png');
+}
+
+.cleanfox_filter:hover {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/img/ic_archive_hover.png');
+}
+
+@supports (-ms-ime-align:auto) {
+    .cleanfox_logo {
+        background-image: url('../img/cleanfox_logo.png');
+    }
+
+    .cleanfox_unsubscribe {
+        background-image: url('../img/ic_block.png');
+    }
+
+    .cleanfox_unsubscribe:hover {
+        background-image: url('../img/ic_block_hover.png');
+    }
+
+    .cleanfox_delete {
+        background-image: url('../img/ic_delete.png');
+    }
+
+    .cleanfox_delete:hover {
+        background-image: url('../img/ic_delete_hover.png');
+    }
+
+    .cleanfox_filter {
+        background-image: url('../img/ic_archive.png');
+    }
+
+    .cleanfox_filter:hover {
+        background-image: url('../img/ic_archive_hover.png');
+    }
+}
+
+@-moz-document url-prefix() {
+    .cleanfox_logo {
+        background-image: url('../img/cleanfox_logo.png');
+    }
+
+    .cleanfox_unsubscribe {
+        background-image: url('../img/ic_block.png');
+    }
+
+    .cleanfox_unsubscribe:hover {
+        background-image: url('../img/ic_block_hover.png');
+    }
+
+    .cleanfox_delete {
+        background-image: url('../img/ic_delete.png');
+    }
+
+    .cleanfox_delete:hover {
+        background-image: url('../img/ic_delete_hover.png');
+    }
+
+    .cleanfox_filter {
+        background-image: url('../img/ic_archive.png');
+    }
+
+    .cleanfox_filter:hover {
+        background-image: url('../img/ic_archive_hover.png');
+    }
+}
+
+.bad_open_rate {
+    color: #f55145;
+}
+
+.middle_open_rate {
+    color: #ff9900;
+}
+
+.good_open_rate {
+    color: #55b559;
+}
+
+#cleanfox_reload {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* spin */
+
+.uil-spin-css {
+    background: none;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+@-webkit-keyframes uil-spin-css {
+    0% {
+        opacity: 1;
+        -ms-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0.1;
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes uil-spin-css {
+    0% {
+        opacity: 1;
+        -ms-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0.1;
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-moz-keyframes uil-spin-css {
+    0% {
+        opacity: 1;
+        -ms-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0.1;
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-ms-keyframes uil-spin-css {
+    0% {
+        opacity: 1;
+        -ms-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0.1;
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-moz-keyframes uil-spin-css {
+    0% {
+        opacity: 1;
+        -ms-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0.1;
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes uil-spin-css {
+    0% {
+        opacity: 1;
+        -ms-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0.1;
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-o-keyframes uil-spin-css {
+    0% {
+        opacity: 1;
+        -ms-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0.1;
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes uil-spin-css {
+    0% {
+        opacity: 1;
+        -ms-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0.1;
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+.uil-spin-css > div {
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+    margin-top: 4px;
+    position: absolute;
+}
+.uil-spin-css > div > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: #000;
+}
+.uil-spin-css > div:nth-of-type(1) > div {
+    -ms-animation: uil-spin-css 1s linear infinite;
+    -moz-animation: uil-spin-css 1s linear infinite;
+    -webkit-animation: uil-spin-css 1s linear infinite;
+    -o-animation: uil-spin-css 1s linear infinite;
+    animation: uil-spin-css 1s linear infinite;
+    -ms-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.uil-spin-css > div:nth-of-type(1) {
+    -ms-transform: translate(84px, 84px) rotate(45deg) translate(70px, 0);
+    -moz-transform: translate(84px, 84px) rotate(45deg) translate(70px, 0);
+    -webkit-transform: translate(84px, 84px) rotate(45deg) translate(70px, 0);
+    -o-transform: translate(84px, 84px) rotate(45deg) translate(70px, 0);
+    transform: translate(84px, 84px) rotate(45deg) translate(70px, 0);
+}
+.uil-spin-css > div:nth-of-type(2) > div {
+    -ms-animation: uil-spin-css 1s linear infinite;
+    -moz-animation: uil-spin-css 1s linear infinite;
+    -webkit-animation: uil-spin-css 1s linear infinite;
+    -o-animation: uil-spin-css 1s linear infinite;
+    animation: uil-spin-css 1s linear infinite;
+    -ms-animation-delay: 0.12s;
+    -moz-animation-delay: 0.12s;
+    -webkit-animation-delay: 0.12s;
+    -o-animation-delay: 0.12s;
+    animation-delay: 0.12s;
+}
+.uil-spin-css > div:nth-of-type(2) {
+    -ms-transform: translate(84px, 84px) rotate(90deg) translate(70px, 0);
+    -moz-transform: translate(84px, 84px) rotate(90deg) translate(70px, 0);
+    -webkit-transform: translate(84px, 84px) rotate(90deg) translate(70px, 0);
+    -o-transform: translate(84px, 84px) rotate(90deg) translate(70px, 0);
+    transform: translate(84px, 84px) rotate(90deg) translate(70px, 0);
+}
+.uil-spin-css > div:nth-of-type(3) > div {
+    -ms-animation: uil-spin-css 1s linear infinite;
+    -moz-animation: uil-spin-css 1s linear infinite;
+    -webkit-animation: uil-spin-css 1s linear infinite;
+    -o-animation: uil-spin-css 1s linear infinite;
+    animation: uil-spin-css 1s linear infinite;
+    -ms-animation-delay: 0.25s;
+    -moz-animation-delay: 0.25s;
+    -webkit-animation-delay: 0.25s;
+    -o-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+}
+.uil-spin-css > div:nth-of-type(3) {
+    -ms-transform: translate(84px, 84px) rotate(135deg) translate(70px, 0);
+    -moz-transform: translate(84px, 84px) rotate(135deg) translate(70px, 0);
+    -webkit-transform: translate(84px, 84px) rotate(135deg) translate(70px, 0);
+    -o-transform: translate(84px, 84px) rotate(135deg) translate(70px, 0);
+    transform: translate(84px, 84px) rotate(135deg) translate(70px, 0);
+}
+.uil-spin-css > div:nth-of-type(4) > div {
+    -ms-animation: uil-spin-css 1s linear infinite;
+    -moz-animation: uil-spin-css 1s linear infinite;
+    -webkit-animation: uil-spin-css 1s linear infinite;
+    -o-animation: uil-spin-css 1s linear infinite;
+    animation: uil-spin-css 1s linear infinite;
+    -ms-animation-delay: 0.37s;
+    -moz-animation-delay: 0.37s;
+    -webkit-animation-delay: 0.37s;
+    -o-animation-delay: 0.37s;
+    animation-delay: 0.37s;
+}
+.uil-spin-css > div:nth-of-type(4) {
+    -ms-transform: translate(84px, 84px) rotate(180deg) translate(70px, 0);
+    -moz-transform: translate(84px, 84px) rotate(180deg) translate(70px, 0);
+    -webkit-transform: translate(84px, 84px) rotate(180deg) translate(70px, 0);
+    -o-transform: translate(84px, 84px) rotate(180deg) translate(70px, 0);
+    transform: translate(84px, 84px) rotate(180deg) translate(70px, 0);
+}
+.uil-spin-css > div:nth-of-type(5) > div {
+    -ms-animation: uil-spin-css 1s linear infinite;
+    -moz-animation: uil-spin-css 1s linear infinite;
+    -webkit-animation: uil-spin-css 1s linear infinite;
+    -o-animation: uil-spin-css 1s linear infinite;
+    animation: uil-spin-css 1s linear infinite;
+    -ms-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+.uil-spin-css > div:nth-of-type(5) {
+    -ms-transform: translate(84px, 84px) rotate(225deg) translate(70px, 0);
+    -moz-transform: translate(84px, 84px) rotate(225deg) translate(70px, 0);
+    -webkit-transform: translate(84px, 84px) rotate(225deg) translate(70px, 0);
+    -o-transform: translate(84px, 84px) rotate(225deg) translate(70px, 0);
+    transform: translate(84px, 84px) rotate(225deg) translate(70px, 0);
+}
+.uil-spin-css > div:nth-of-type(6) > div {
+    -ms-animation: uil-spin-css 1s linear infinite;
+    -moz-animation: uil-spin-css 1s linear infinite;
+    -webkit-animation: uil-spin-css 1s linear infinite;
+    -o-animation: uil-spin-css 1s linear infinite;
+    animation: uil-spin-css 1s linear infinite;
+    -ms-animation-delay: 0.62s;
+    -moz-animation-delay: 0.62s;
+    -webkit-animation-delay: 0.62s;
+    -o-animation-delay: 0.62s;
+    animation-delay: 0.62s;
+}
+.uil-spin-css > div:nth-of-type(6) {
+    -ms-transform: translate(84px, 84px) rotate(270deg) translate(70px, 0);
+    -moz-transform: translate(84px, 84px) rotate(270deg) translate(70px, 0);
+    -webkit-transform: translate(84px, 84px) rotate(270deg) translate(70px, 0);
+    -o-transform: translate(84px, 84px) rotate(270deg) translate(70px, 0);
+    transform: translate(84px, 84px) rotate(270deg) translate(70px, 0);
+}
+.uil-spin-css > div:nth-of-type(7) > div {
+    -ms-animation: uil-spin-css 1s linear infinite;
+    -moz-animation: uil-spin-css 1s linear infinite;
+    -webkit-animation: uil-spin-css 1s linear infinite;
+    -o-animation: uil-spin-css 1s linear infinite;
+    animation: uil-spin-css 1s linear infinite;
+    -ms-animation-delay: 0.75s;
+    -moz-animation-delay: 0.75s;
+    -webkit-animation-delay: 0.75s;
+    -o-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+}
+.uil-spin-css > div:nth-of-type(7) {
+    -ms-transform: translate(84px, 84px) rotate(315deg) translate(70px, 0);
+    -moz-transform: translate(84px, 84px) rotate(315deg) translate(70px, 0);
+    -webkit-transform: translate(84px, 84px) rotate(315deg) translate(70px, 0);
+    -o-transform: translate(84px, 84px) rotate(315deg) translate(70px, 0);
+    transform: translate(84px, 84px) rotate(315deg) translate(70px, 0);
+}
+.uil-spin-css > div:nth-of-type(8) > div {
+    -ms-animation: uil-spin-css 1s linear infinite;
+    -moz-animation: uil-spin-css 1s linear infinite;
+    -webkit-animation: uil-spin-css 1s linear infinite;
+    -o-animation: uil-spin-css 1s linear infinite;
+    animation: uil-spin-css 1s linear infinite;
+    -ms-animation-delay: 0.87s;
+    -moz-animation-delay: 0.87s;
+    -webkit-animation-delay: 0.87s;
+    -o-animation-delay: 0.87s;
+    animation-delay: 0.87s;
+}
+.uil-spin-css > div:nth-of-type(8) {
+    -ms-transform: translate(84px, 84px) rotate(360deg) translate(70px, 0);
+    -moz-transform: translate(84px, 84px) rotate(360deg) translate(70px, 0);
+    -webkit-transform: translate(84px, 84px) rotate(360deg) translate(70px, 0);
+    -o-transform: translate(84px, 84px) rotate(360deg) translate(70px, 0);
+    transform: translate(84px, 84px) rotate(360deg) translate(70px, 0);
+}

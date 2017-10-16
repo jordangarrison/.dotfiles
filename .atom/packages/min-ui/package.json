@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117328-12288-1suytdg.hch37n9udi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117328-12288-1suytdg.hch37n9udi/package.tgz",
+        "spec": "/tmp/d-117328-12288-1suytdg.hch37n9udi/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117328-12288-4wewg0.hdjvzk6gvi"
+    ]
+  ],
+  "_from": "../d-117328-12288-1suytdg.hch37n9udi/package.tgz",
+  "_id": "min-ui@0.0.4",
+  "_inCache": true,
+  "_location": "/min-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117328-12288-1suytdg.hch37n9udi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117328-12288-1suytdg.hch37n9udi/package.tgz",
+    "spec": "/tmp/d-117328-12288-1suytdg.hch37n9udi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117328-12288-1suytdg.hch37n9udi/package.tgz",
+  "_shasum": "62baa1a90296f1c095e80a5f77561d49538d1bc3",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117328-12288-1suytdg.hch37n9udi/package.tgz",
+  "_where": "/tmp/apm-install-dir-117328-12288-4wewg0.hdjvzk6gvi",
+  "bugs": {
+    "url": "https://github.com/jstnjns/min-ui/issues"
+  },
+  "dependencies": {},
+  "description": "A minimal UI for Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.40.0"
+  },
+  "homepage": "https://github.com/jstnjns/min-ui#readme",
+  "keywords": [
+    "adaptive",
+    "minimal",
+    "ui"
+  ],
+  "license": "MIT",
+  "name": "min-ui",
+  "optionalDependencies": {},
+  "readme": "# Minimum UI theme\n\nA minimal UI theme for Atom.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstnjns/min-ui.git"
+  },
+  "theme": "ui",
+  "version": "0.0.4",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

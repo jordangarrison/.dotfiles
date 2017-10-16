@@ -1,0 +1,79 @@
+.btn {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: @component-border-radius;
+  padding: @component-padding;
+  height: auto;
+  width: auto;
+  min-width: 5em;
+  font-size: 1rem;
+  background-color: transparent;
+  transition: all @ui-transition-duration ease;
+  .button(@text-color);
+
+  &.btn-primary {
+    .button(@text-color);
+  }
+
+  &.btn-info {
+    .button(@ui-color-blue);
+  }
+
+  &.btn-success {
+    .button(@ui-color-green);
+  }
+
+  &.btn-warning {
+    .button(@ui-color-orange);
+  }
+
+  &.btn-error {
+    .button(@ui-color-red);
+  }
+}
+
+.btn-group {
+
+  .btn {
+
+    &:first-child,
+    &:first-child:hover {
+      border-left-style: solid;
+      border-left-width: 1px;
+    }
+
+    &:last-child,
+    &:last-child:hover {
+      border-right-style: solid;
+      border-right-width: 1px;
+    }
+  }
+}
+
+// Button generator!
+.button(@color) {
+  border-color: @color !important;
+  color: @button-background-color;
+  background-color: @color;
+
+  &:hover {
+    color: @button-background-color;
+    background-color: fade(@color, 80%);
+  }
+
+  &:focus {
+    color: @button-background-color;
+    background-color: @color;
+    outline: none;
+  }
+
+  &.selected {
+    color: @color;
+    background-color: transparent;
+
+    &:hover {
+      color: @color;
+      background-color: fade(@color, 20%);
+    }
+  }
+}

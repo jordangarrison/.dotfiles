@@ -1,0 +1,26 @@
+[Data Source]
+DisplayName=jordangarrison@tamu.edu
+Enabled=false
+Parent=1488705728.1466.15@jgarrison.macbook-pro
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://1488705728.1466.16%40jgarrison.macbook-pro/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+
+[Mail Identity]
+Address=jordangarrison@tamu.edu
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
+
+Aliases=
+
+[Mail Submission]
+SentFolder=folder://1488705728.1466.16%40jgarrison.macbook-pro/Sent
+TransportUid=1488705728.1466.18@jgarrison.macbook-pro
+RepliesToOriginFolder=false
