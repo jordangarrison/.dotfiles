@@ -13,7 +13,7 @@ To clone this repo run the following:
   
 Backup you previous dotfiles
   
-    mv .<dotfile_name> .<dotfile_name.bak>
+    mv .<dotfile_name> .<dotfile_name>.bak
   
 Source the file in the dotfile directory for use on login in dummy dotfiles. Ex:
   
